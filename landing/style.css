@@ -326,6 +326,28 @@ a:hover { color: var(--moss-500); }
   margin-bottom: 0.2rem;
 }
 .hero-meta dd { margin: 0; color: var(--paper); }
+.hero-meta a.hero-link {
+  color: var(--paper);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(237,226,208,0.35);
+  padding-bottom: 1px;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+.hero-meta a.hero-link:hover {
+  color: var(--paper);
+  border-bottom-color: var(--paper);
+}
+.hero-meta .hero-link-arrow {
+  display: inline-block;
+  margin-left: 0.18em;
+  font-size: 0.85em;
+  color: var(--clay-200);
+  transition: transform 160ms ease, color 120ms ease;
+}
+.hero-meta a.hero-link:hover .hero-link-arrow {
+  color: var(--paper);
+  transform: translate(1px, -1px);
+}
 
 /* ---------- doc layout ---------- */
 
