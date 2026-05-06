@@ -412,19 +412,17 @@ a:hover { color: var(--moss-500); }
   position: sticky; top: 6.5rem;
   align-self: start;
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 12.5px;
   border-left: 1px solid var(--line);
   padding-left: 1.25rem;
-  max-height: calc(100vh - 8rem);
-  overflow-y: auto;
 }
 .toc-label {
   font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
   color: var(--clay-500);
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 .toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc; }
-.toc li { margin-bottom: 0.55rem; counter-increment: toc; }
+.toc li { margin-bottom: 0.32rem; counter-increment: toc; line-height: 1.35; }
 .toc li::before {
   content: counter(toc, decimal-leading-zero) "  ";
   color: var(--clay-300);
