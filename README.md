@@ -19,6 +19,8 @@ reconnecta/
 │   ├── index.html             ← landing page (HTML)
 │   ├── style.css              ← styles
 │   └── reconnecta-whitepaper.pdf   ← downloadable build
+├── basemap/                   ← Regrarians basemap delivery (130 MB · GeoTIFF DTM + 60 KMZ + boundary + legends)
+│   └── README.md              ← layer-by-layer manifest and reading order
 └── scripts/
     ├── build-pdf.sh           ← regenerate the PDF from the landing
     └── deploy.example.sh      ← deploy template for your own host
@@ -148,6 +150,16 @@ The script writes to `landing/reconnecta-whitepaper.pdf`.
 §13 *Aesthetic Direction* embeds a live Miro board (`taipa house / clay`) curated by Norbert as the project's visual constitution. The embed is hidden in the printed PDF and replaced by a textual note pointing to the web edition — Miro is interactive in nature and does not render meaningfully on paper.
 
 If you fork the repo and want to swap in your own visual reference: replace the `<iframe>` block in `landing/index.html` (search for `<!--` `Miro` or for `miro.com`).
+
+---
+
+## Geospatial basemap
+
+The `basemap/` directory holds a [Regrarians Basemap](https://basemaps.regrarians.org/) delivery for the parcel — a GeoTIFF Digital Terrain Model, the parcel boundary as KML, and 60 ready-to-open Google Earth KMZ layers covering elevation, slope, aspect, contours (0.5 / 1 / 2 / 5 m), drainage, flow velocity, erosion, inundations, hydrobasins at six scales, and Geomorphons landforms (10 classes plus aggregate views).
+
+Open the layers in **Google Earth Pro**, or open the underlying GeoTIFF in **QGIS** for analysis. See [`basemap/README.md`](./basemap/README.md) for a layer-by-layer manifest, recommended display settings, and a suggested reading order if you've never seen the data before.
+
+The directory adds ~130 MB to the repository — kept in plain git so the data is immediately available to anyone who clones, with Git LFS as a future option if the repo grows further.
 
 ---
 
