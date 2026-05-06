@@ -409,13 +409,13 @@ a:hover { color: var(--moss-500); }
 /* ---------- TOC ---------- */
 
 .toc {
-  position: sticky; top: 5rem;
+  position: sticky; top: 6.5rem;
   align-self: start;
   font-family: var(--sans);
   font-size: 13px;
   border-left: 1px solid var(--line);
   padding-left: 1.25rem;
-  max-height: calc(100vh - 7rem);
+  max-height: calc(100vh - 8rem);
   overflow-y: auto;
 }
 .toc-label {
