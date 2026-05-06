@@ -475,14 +475,14 @@ hr.rule {
     padding: 0; max-width: none;
     page-break-after: always;
     background: #221610 !important;
+    background-image: linear-gradient(180deg, rgba(34,22,16,0.55), rgba(34,22,16,0.85)), url("assets/hero.jpg") !important;
+    background-size: cover !important;
+    background-position: center 40% !important;
     -webkit-print-color-adjust: exact; print-color-adjust: exact;
     min-height: 24cm;
     position: relative;
   }
-  .hero-bg, .hero-bg img, .hero-scrim {
-    -webkit-print-color-adjust: exact; print-color-adjust: exact;
-  }
-  .hero-bg img { object-position: center 40%; }
+  .hero-bg, .hero-scrim { display: none !important; }
   .hero-content { padding: 5cm 1.5cm 1.5cm; max-width: none; }
   .hero-title { font-size: 44pt; color: #faf6ee !important; }
   .hero-subtitle { font-size: 16pt; color: #ede2d0 !important; }
