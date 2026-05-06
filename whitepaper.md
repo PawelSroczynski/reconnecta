@@ -15,23 +15,23 @@
 ## Contents
 
 1. [Executive Summary](#1-executive-summary)
-2. [The Holistic Goal](#2-the-holistic-goal)
-3. [Site & Topography](#3-site--topography)
-4. [Land History](#4-land-history)
-5. [People & Decisions](#5-people--decisions)
-6. [Climate](#6-climate)
-7. [Water](#7-water)
-8. [Soil & Ecosystems](#8-soil--ecosystems)
-9. [Architecture & Buildings](#9-architecture--buildings)
-10. [Energy](#10-energy)
-11. [Animals](#11-animals)
-12. [Plants & Food Production](#12-plants--food-production)
-13. [Aesthetic Direction](#13-aesthetic-direction)
-14. [Economy & Funding](#14-economy--funding)
-15. [Vision: Five and Ten Years](#15-vision-five-and-ten-years)
-16. [Reference Projects](#16-reference-projects)
-17. [Values & Principles](#17-values--principles)
-18. [Roadmap & Next Steps](#18-roadmap--next-steps)
+2. [Project Roadmap](#2-project-roadmap)
+3. [The Holistic Goal](#3-the-holistic-goal)
+4. [Site & Topography](#4-site--topography)
+5. [Land History](#5-land-history)
+6. [People & Decisions](#6-people--decisions)
+7. [Climate](#7-climate)
+8. [Water](#8-water)
+9. [Soil & Ecosystems](#9-soil--ecosystems)
+10. [Architecture & Buildings](#10-architecture--buildings)
+11. [Energy](#11-energy)
+12. [Animals](#12-animals)
+13. [Plants & Food Production](#13-plants--food-production)
+14. [Aesthetic Direction](#14-aesthetic-direction)
+15. [Economy & Funding](#15-economy--funding)
+16. [Vision: Five and Ten Years](#16-vision-five-and-ten-years)
+17. [Reference Projects](#17-reference-projects)
+18. [Values & Principles](#18-values--principles)
 19. [Open Questions](#19-open-questions)
 20. [Appendix — Wish List](#20-appendix--wish-list)
 
@@ -49,7 +49,25 @@ This document describes what is known, what is being designed, and what remains 
 
 ---
 
-## 2. The Holistic Goal
+## 2. Project Roadmap
+
+Reconnecta is being delivered as a seven-stage process. **Stage 0 is being finalised now** — this whitepaper, the gap registry in §19 and the Regrarians basemap in the public source repository are its outputs. Everything from Stage 1 onward is ahead of us.
+
+| # | Stage | What happens | Status |
+|---|-------|--------------|--------|
+| 0 | Holistic Context | Organise everything we know about the place, the people, the constraints and the goals into a single artefact. | **In progress · finalising** |
+| 1 | Conceptual Work | Translate the holistic context into spatial form. First sketches that turn values and constraints into proposed shape on the land. | Pending |
+| 2 | Integral Conceptual Sketch | Working architectural and functional form, plus team-building. The shape becomes a working design proposition. | Pending |
+| 3 | Technical Conceptual Project | Engineering layer added to the design — structure, systems, materials decisions. | Pending |
+| 4 | Construction Documentation | Full building permit and execution drawings. | Pending |
+| 5 | Phased Construction | Building. Phased to align with permits, weather, capital cycles. | Pending |
+| 6 | Living | Occupancy. The land is in use. | Pending |
+
+The stages are sequential — each one consumes the output of the previous. The current document closes Stage 0 by making the project legible to itself and to anyone joining it.
+
+---
+
+## 3. The Holistic Goal
 
 Every design decision in this project is tested against a single sentence — the day Norbert wants this place to make possible:
 
@@ -67,7 +85,7 @@ The Holistic Goal is the constitution; everything that follows is implementation
 
 ---
 
-## 3. Site & Topography
+## 4. Site & Topography
 
 | Field | Data |
 |-------|------|
@@ -97,9 +115,9 @@ PIP submission package includes cadastral plans, topographic survey, satellite a
 
 ---
 
-## 4. Land History
+## 5. Land History
 
-The land was acquired in February 2019 and has been in planning since. The upper section was a eucalyptus plantation before acquisition; the trees have since been cleared. Eucalyptus leaves a measurable legacy — soil acidification, allelopathic compounds that can persist five to ten years, and severe compaction — which directly drives the soil-remediation strategy in §8.
+The land was acquired in February 2019 and has been in planning since. The upper section was a eucalyptus plantation before acquisition; the trees have since been cleared. Eucalyptus leaves a measurable legacy — soil acidification, allelopathic compounds that can persist five to ten years, and severe compaction — which directly drives the soil-remediation strategy in §9.
 
 The lower section's pre-acquisition history is less clear. The native vegetation (oak, pine) suggests it was either never plantation-managed or has had decades to recover.
 
@@ -111,7 +129,7 @@ A biologist has been engaged to conduct a full ecological survey (fauna, flora, 
 
 ---
 
-## 5. People & Decisions
+## 6. People & Decisions
 
 | Role | Person | Status |
 |------|--------|--------|
@@ -135,7 +153,7 @@ A biologist has been engaged to conduct a full ecological survey (fauna, flora, 
 
 ---
 
-## 6. Climate
+## 7. Climate
 
 This section is intentionally a placeholder. **No quantitative climate data has yet been collected for the parcel** beyond the regional understanding that this is Atlantic-Portugal Mediterranean: wet winters, dry summers, mild temperatures, coastal wind. Without numbers, none of the design layers downstream — water, planting, energy, fire — can be properly sized.
 
@@ -150,7 +168,7 @@ The fire-risk question is the most consequential. This is ex-eucalyptus land in 
 
 ---
 
-## 7. Water
+## 8. Water
 
 The parcel is water-rich by Iberian standards — the design problem is capture, slowing, storage and distribution, not scarcity.
 
@@ -170,7 +188,7 @@ The stream and the wetland zones in the lower section are the project's most val
 
 ---
 
-## 8. Soil & Ecosystems
+## 9. Soil & Ecosystems
 
 ### Soil zones
 
@@ -195,7 +213,7 @@ Adjacent to Óbidos Lagoon, the parcel sits in a documented bird corridor. The P
 
 ---
 
-## 9. Architecture & Buildings
+## 10. Architecture & Buildings
 
 ### Programme (per PIP)
 
@@ -222,11 +240,11 @@ In addition: family home, stables, atelier/workshop complex, and ancillary outbu
 
 ### Design principles
 
-All buildings designed for **off-grid operation from day one**, with grid available as backup. Passive design first; technical systems sized to a load that has not yet been calculated (§10). Materials, expression and detail follow the visual language collected on the Miro reference board (§13).
+All buildings designed for **off-grid operation from day one**, with grid available as backup. Passive design first; technical systems sized to a load that has not yet been calculated (§11). Materials, expression and detail follow the visual language collected on the Miro reference board (§14).
 
 ---
 
-## 10. Energy
+## 11. Energy
 
 **Position:** Start grid-connected → transition to fully off-grid (solar + wind + biomass).
 
@@ -243,7 +261,7 @@ Until the load calculation lands, the energy section is a principle without a pl
 
 ---
 
-## 11. Animals
+## 12. Animals
 
 ### Programme
 
@@ -260,13 +278,13 @@ Until the load calculation lands, the energy section is a principle without a pl
 
 ### Grazing
 
-Rotational paddocks across the lower section and rented land. Move horses between zones based on land condition. The full division design (number of paddocks, rotation intervals, rest periods) lands once carrying capacity is sized against the climate and water data — i.e., downstream of §6 and §7.
+Rotational paddocks across the lower section and rented land. Move horses between zones based on land condition. The full division design (number of paddocks, rotation intervals, rest periods) lands once carrying capacity is sized against the climate and water data — i.e., downstream of §7 and §8.
 
 A **round pen** is required for the natural-horsemanship workshops; siting is a function of soil drainage and proximity to the stables.
 
 ---
 
-## 12. Plants & Food Production
+## 13. Plants & Food Production
 
 **Philosophy.** Full organic. No synthetic fertilisers. No synthetic plant-protection products. Ever. *Non-negotiable.*
 
@@ -276,23 +294,23 @@ A **round pen** is required for the natural-horsemanship workshops; siting is a 
 
 **Vegetables:** carrot, salad, diverse mix.
 
-**Sequencing.** Garden siting is deliberately not yet fixed. It happens *after* the water design (§7) and access design (§3), because correct sequence beats clever placement. This is also the principle that governs the post-eucalyptus zone: pioneer species and soil remediation precede food-bearing planting by several seasons.
+**Sequencing.** Garden siting is deliberately not yet fixed. It happens *after* the water design (§8) and access design (§4), because correct sequence beats clever placement. This is also the principle that governs the post-eucalyptus zone: pioneer species and soil remediation precede food-bearing planting by several seasons.
 
 **Goal.** Family food sovereignty first; surplus to local community and (long-term) restaurant supply second.
 
 ---
 
-## 13. Aesthetic Direction
+## 14. Aesthetic Direction
 
 The visual constitution of the project lives on a Miro board curated by Norbert under the working title *taipa house / clay*. The web version of this whitepaper embeds the live board so the language can be read directly; the PDF version shows it as a frozen reference plate at this version's date.
 
 The board is organised by category: **architecture, mass and elevation, roofs, kitchen, dining, atelier, sauna and wellness, materials, installations, outdoor kitchen, landscape, stables**. In the next revision each category receives its own treatment — one image, one paragraph, one decision per category: what is being carried across (form, material, palette, atmosphere) and what is being left behind.
 
-`[PENDING — §13 per-category write-up. Placeholder tiles in the web version mark the open work.]`
+`[PENDING — §14 per-category write-up. Placeholder tiles in the web version mark the open work.]`
 
 ---
 
-## 14. Economy & Funding
+## 15. Economy & Funding
 
 ### Revenue streams (named, not yet modelled)
 
@@ -334,7 +352,7 @@ Architect's professional indemnity is in place. Property, guest liability, emplo
 
 ---
 
-## 15. Vision: Five and Ten Years
+## 16. Vision: Five and Ten Years
 
 **Five years.** Family home occupied. Horses on the land. Partners, friends and visitors living on-site short or medium term. Cultural activities running — artist residencies, music, gatherings. A local community hub where people from different sectors meet and connect.
 
@@ -349,7 +367,7 @@ Architect's professional indemnity is in place. Property, guest liability, emplo
 
 ---
 
-## 16. Reference Projects
+## 17. Reference Projects
 
 A March 2026 review benchmarked Reconnecta against ten Portuguese precedents. The summary matrix:
 
@@ -378,7 +396,7 @@ Full per-project profiles: `research/portugal-reference-projects.md`.
 
 ---
 
-## 17. Values & Principles
+## 18. Values & Principles
 
 | Value | Detail |
 |-------|--------|
@@ -390,34 +408,6 @@ Full per-project profiles: `research/portugal-reference-projects.md`.
 | Non-dogmatic | No single -ism. Permaculture, biodynamics, organic agriculture — full deck of cards, no orthodoxy. |
 
 **Non-negotiables:** the land, and the approach.
-
----
-
-## 18. Roadmap & Next Steps
-
-### Primary deliverable
-
-A comprehensive project roadmap with milestones — from current position to the five-year vision. Concrete checkpoints across all design layers: climate, geography, water, access, ecosystems, buildings, fencing, soils, economy and energy.
-
-### Technical deliverable
-
-Off-grid / hybrid building architecture guidance. Every building designed to operate fully off-grid or on-grid, switchable. Includes passive design, solar/wind sizing, battery storage, water harvesting, composting/sewage systems — off-grid from day one with grid as backup during build-out.
-
-### Sequencing principles
-
-1. Information before design (climate data, soil tests, water demand calc).
-2. Permits before construction (PIP → full permit).
-3. People before programme (operational manager hire before opening hospitality layer).
-4. Soil before food (post-eucalyptus remediation precedes food-bearing planting).
-5. Water before garden (capture and storage design before garden siting).
-6. Insurance before operation (full coverage stack before guests, horses or workshops).
-
-### Active fronts (as of 2026-03-30)
-
-1. **Land expansion.** Negotiating ~4–5 ha lease + 1 ha purchase from neighbours. Good progress.
-2. **Building permit.** PIP submitted; awaiting municipal decision. Critical-path blocker.
-
-A detailed phased roadmap is the next produced artefact, **after** the follow-up data session (§19).
 
 ---
 
