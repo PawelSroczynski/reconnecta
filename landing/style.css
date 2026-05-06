@@ -536,17 +536,15 @@ a:hover { color: var(--moss-500); }
   padding: 1.2rem 0;
   align-items: start;
   position: relative;
-  border-bottom: 1px solid var(--line);
 }
-.stage:last-child { border-bottom: 0; }
 .stage::before {
   content: "";
   position: absolute;
   left: 1.55rem;
-  top: 4.2rem;
-  bottom: -0.8rem;
+  top: 4.4rem;
+  bottom: -1.2rem;
   width: 1px;
-  background: var(--clay-200);
+  background: var(--clay-300);
   z-index: 0;
 }
 .stage:last-child::before { display: none; }
@@ -744,7 +742,7 @@ hr.rule {
   html, body { background: #fff !important; color: #000 !important; font-size: 10.5pt; }
   .topbar, .toc, .toc-mobile, .cta, footer.foot, .reading-progress, .section-indicator, .to-top { display: none !important; }
   .stage { page-break-inside: avoid; }
-  .stage-num, .stage-current .stage-num, .stage-status, .status-current { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .stage-num, .stage-current .stage-num, .stage-status, .status-current, .stage::before { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .doc-layout { grid-template-columns: 1fr; gap: 0; padding: 0; max-width: none; }
   .hero {
     padding: 0; max-width: none;
