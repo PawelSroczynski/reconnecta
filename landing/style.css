@@ -101,6 +101,13 @@ a:hover { color: var(--moss-500); }
   cursor: not-allowed; opacity: 0.6;
   border-style: dashed;
 }
+.cta-ghost {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--ink-soft);
+}
+.cta-ghost:hover { background: var(--clay-50); color: var(--ink); }
+.topbar-inner > .cta + .cta { margin-left: 0.5rem; }
 
 /* ---------- hero ---------- */
 
@@ -166,6 +173,32 @@ a:hover { color: var(--moss-500); }
 }
 .hero-meta dt { letter-spacing: 0.1em; text-transform: uppercase; font-size: 10px; color: var(--clay-500); margin-bottom: 0.2rem; }
 .hero-meta dd { margin: 0; color: var(--ink); }
+
+/* ---------- hero photo ---------- */
+
+.hero-photo {
+  margin: 0 auto;
+  max-width: var(--max);
+  padding: 0 1.5rem 3rem;
+}
+.hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 56vh;
+  object-fit: cover;
+  border-radius: 4px;
+  filter: saturate(1.02) contrast(1.02);
+}
+.hero-photo figcaption {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 0.7rem;
+  text-align: right;
+}
 
 /* ---------- doc layout ---------- */
 
@@ -437,6 +470,8 @@ hr.rule {
   .miro-frame { display: none; }
   .miro-frame + .figure-caption { display: none; }
   .print-only { display: block !important; }
+  .hero-photo { padding: 0 0 0.6cm; max-width: none; }
+  .hero-photo img { max-height: 8cm; border-radius: 0; }
   .figure-grid .ph { background: #f0e8d8 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .pending, .callout-pending, .callout-visual, .status { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   a { color: #4a3622 !important; text-decoration: none; }
