@@ -146,8 +146,33 @@ a:hover { color: var(--moss-500); }
   letter-spacing: 0.02em;
   color: var(--ink);
   text-decoration: none;
+  line-height: 1.05;
 }
 .brand .dot { color: var(--clay-500); }
+.brand-mobile { display: none; }
+@media (max-width: 720px) {
+  .brand-default { display: none; }
+  .brand-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .brand-mobile-name {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--clay-900);
+    letter-spacing: -0.005em;
+  }
+  .brand-mobile-host {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--clay-500);
+    font-weight: 500;
+  }
+}
 .crumbs {
   flex: 1;
   color: var(--ink-soft);
