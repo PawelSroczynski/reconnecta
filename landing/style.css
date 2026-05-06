@@ -317,16 +317,19 @@ a:hover { color: var(--moss-500); }
   border-top: 1px solid rgba(237,226,208,0.25);
   padding-top: 1.1rem;
   margin-top: 1.4rem;
-  overflow-x: auto;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(237,226,208,0.25) transparent;
-  -webkit-overflow-scrolling: touch;
 }
 .hero-meta > div { flex: 0 0 auto; white-space: nowrap; }
-.hero-meta::-webkit-scrollbar { height: 4px; }
-.hero-meta::-webkit-scrollbar-thumb { background: rgba(237,226,208,0.25); border-radius: 4px; }
+
 @media (max-width: 880px) {
-  .hero-meta { font-size: 11px; gap: 1.2rem; }
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.9rem 1rem;
+    font-size: 11px;
+  }
+  .hero-meta > div { white-space: normal; }
+  /* Hide Owner row on mobile — Founder + Project lead carry identity, "HOME 4 LIFE LDA" is in the document body */
+  .hero-meta > div:nth-child(5) { display: none; }
 }
 .hero-meta dt {
   letter-spacing: 0.1em;
