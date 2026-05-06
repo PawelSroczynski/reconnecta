@@ -158,31 +158,68 @@ a:hover { color: var(--moss-500); }
 .crumbs a { color: var(--ink-soft); text-decoration: none; }
 .crumbs a:hover { color: var(--ink); }
 .cta {
-  display: inline-flex; align-items: center; gap: 0.5rem;
-  padding: 0.5rem 0.9rem;
-  border: 1px solid var(--clay-300);
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.5rem 0.95rem;
+  border: 1px solid transparent;
   border-radius: 999px;
-  color: var(--clay-700);
   text-decoration: none;
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 12.5px;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  background: var(--clay-50);
-  transition: background 120ms ease;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+  transition: background 140ms ease, color 140ms ease, border-color 140ms ease, transform 140ms ease, box-shadow 140ms ease;
 }
-.cta:hover { background: var(--clay-100); color: var(--clay-700); }
+.cta:hover { transform: translateY(-1px); }
+.cta:active { transform: translateY(0); }
+.cta-icon { flex: 0 0 auto; }
+.cta-arrow {
+  flex: 0 0 auto;
+  opacity: 0.55;
+  transform: translate(0,0);
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+.cta:hover .cta-arrow { opacity: 1; transform: translate(1px,-1px); }
+
+/* Primary — filled */
+.cta-primary {
+  background: var(--clay-700);
+  color: var(--paper);
+  border-color: var(--clay-700);
+  box-shadow: 0 1px 2px rgba(34,22,16,0.10), inset 0 1px 0 rgba(255,255,255,0.06);
+}
+.cta-primary:hover {
+  background: var(--clay-900);
+  border-color: var(--clay-900);
+  color: var(--paper);
+  box-shadow: 0 4px 14px rgba(34,22,16,0.18), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+/* Ghost — outlined */
+.cta-ghost {
+  background: transparent;
+  border-color: var(--clay-300);
+  color: var(--clay-700);
+}
+.cta-ghost:hover {
+  background: var(--clay-50);
+  border-color: var(--clay-500);
+  color: var(--clay-900);
+}
+
 .cta.disabled {
   cursor: not-allowed; opacity: 0.6;
   border-style: dashed;
+  pointer-events: none;
 }
-.cta-ghost {
-  background: transparent;
-  border-color: var(--line);
-  color: var(--ink-soft);
+.topbar-inner > .cta + .cta { margin-left: 0.4rem; }
+
+@media (max-width: 480px) {
+  .cta span { display: none; }
+  .cta { padding: 0.5rem 0.7rem; }
+  .cta-arrow { display: none; }
 }
-.cta-ghost:hover { background: var(--clay-50); color: var(--ink); }
-.topbar-inner > .cta + .cta { margin-left: 0.5rem; }
 
 /* ---------- hero ---------- */
 
