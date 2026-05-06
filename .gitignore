@@ -1,0 +1,28 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Node-ish (in case anyone adds tooling later)
+node_modules/
+.npm/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Local deployment artifacts
+.deploy-state
+*.local
