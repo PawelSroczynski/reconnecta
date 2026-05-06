@@ -48,6 +48,73 @@ a:hover { color: var(--moss-500); }
 
 ::selection { background: var(--clay-200); }
 
+/* ---------- reading progress + section indicator + back-to-top ---------- */
+
+.reading-progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--clay-500);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 60ms linear;
+  z-index: 60;
+  pointer-events: none;
+}
+
+.section-indicator {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.5rem 0.4rem;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+  height: 0; overflow: hidden;
+  transition: height 160ms ease, padding 160ms ease;
+}
+.section-indicator.on:not(.hide) {
+  height: 1.6rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.section-indicator span {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 55;
+  width: 2.6rem; height: 2.6rem;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--clay-50);
+  color: var(--clay-700);
+  border: 1px solid var(--clay-300);
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(34,22,16,0.14);
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms ease, background 120ms ease;
+}
+.to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.to-top:hover { background: var(--clay-100); color: var(--clay-900); }
+
+@media (max-width: 720px) {
+  .to-top { bottom: 1rem; right: 1rem; width: 2.4rem; height: 2.4rem; }
+}
+
 /* ---------- top bar ---------- */
 
 .topbar {
@@ -545,7 +612,7 @@ hr.rule {
 @media print {
   @page { size: A4; margin: 18mm 16mm 20mm 16mm; }
   html, body { background: #fff !important; color: #000 !important; font-size: 10.5pt; }
-  .topbar, .toc, .cta, footer.foot { display: none !important; }
+  .topbar, .toc, .toc-mobile, .cta, footer.foot, .reading-progress, .section-indicator, .to-top { display: none !important; }
   .doc-layout { grid-template-columns: 1fr; gap: 0; padding: 0; max-width: none; }
   .hero {
     padding: 0; max-width: none;

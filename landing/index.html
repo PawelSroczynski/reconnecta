@@ -59,8 +59,6 @@
   },
   "about": [
     "regenerative agriculture",
-    "Holistic Management",
-    "Regrarians Platform",
     "off-grid architecture",
     "Hotel Rural Portugal",
     "natural horsemanship",
@@ -84,9 +82,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css?v=20260506-4">
+<link rel="stylesheet" href="style.css?v=20260506-5">
 </head>
 <body>
+
+<div class="reading-progress" aria-hidden="true"></div>
 
 <header class="topbar">
   <div class="topbar-inner">
@@ -95,6 +95,7 @@
     <a class="cta cta-ghost" href="https://github.com/PawelSroczynski/reconnecta" target="_blank" rel="noopener" title="Source repo on GitHub">GitHub ↗</a>
     <a class="cta" href="reconnecta-whitepaper.pdf" download title="Download the whitepaper as PDF (test build, v0.2-beta)">Whitepaper ↓</a>
   </div>
+  <div class="section-indicator" aria-live="polite"><span></span></div>
 </header>
 
 <a id="top"></a>
@@ -187,7 +188,7 @@
       <h2><span class="num">§ 01</span>Executive Summary</h2>
       <p>Reconnecta is a 4.83-hectare regenerative project under development on the western coast of Portugal, between Óbidos Lagoon and the Atlantic. Its purpose is to prove — at human scale and on a single piece of land — that uncompromising ecological practice and uncompromising quality of life are not opposites. They are the same craft, done well.</p>
       <p>The project is organised around three interlocking commitments: a family home, a working ecosystem, and a place where others learn what it took to build it. The hospitality layer — a 10-unit Hotel Rural 3★, currently in the Portuguese pre-permit (PIP) stage — funds the operation. Workshops, residencies and a research programme give it meaning. The land itself — soils, water, oaks, horses, food — is both medium and message.</p>
-      <p>Reconnecta is being built by Norbert Roztocki and family, with Paweł Sroczyński as project manager and Darren as land advisor (Regrarians Platform / Holistic Management). It is not a retreat centre, not a commune, not a brand. It is a place.</p>
+      <p>Reconnecta is being built by Norbert Roztocki and family, with Paweł Sroczyński as project manager. It is not a retreat centre, not a commune, not a brand. It is a place.</p>
       <p>This document describes what is known, what is being designed, and what remains to be answered. Open questions are flagged in line as <span class="pending">…</span> and registered in §19 so they can be tracked rather than hidden.</p>
     </section>
 
@@ -195,7 +196,7 @@
       <h2><span class="num">§ 02</span>The Holistic Goal</h2>
       <p>Every design decision in this project is tested against a single sentence — the day Norbert wants this place to make possible:</p>
       <blockquote>Wake up, ride on the land, have a swim in a natural lake, meet some artists, have lunch made from locally grown vegetables, meet friends and people coming for the workshop who want to see how a self-sustainable project can exist and function.</blockquote>
-      <p>Behind that sentence sit three pillars (Holistic Management framing):</p>
+      <p>Behind that sentence sit three pillars:</p>
       <h4>Quality of life</h4>
       <p>Family home. Horses. Creativity. Guests. Community. Nature immersion. Freedom from dependency on external systems.</p>
       <h4>Forms of production</h4>
@@ -252,7 +253,6 @@
         <tbody>
           <tr><td>Investor &amp; strategic owner</td><td>Norbert Roztocki</td><td>Active</td></tr>
           <tr><td>Project manager</td><td>Paweł Sroczyński</td><td>Active · <span class="pending">Q8 formal scope</span></td></tr>
-          <tr><td>Land advisor (Regrarians/HM)</td><td>Darren</td><td>Active</td></tr>
           <tr><td>Architect</td><td>João Carlos Fonseca Jorge (OA #18423)</td><td>Engaged</td></tr>
           <tr><td>Topographic surveyor</td><td>TPG Lda</td><td>Engaged</td></tr>
           <tr><td>Biologist</td><td>Engaged</td><td>Survey in progress</td></tr>
@@ -527,7 +527,7 @@
     <section id="roadmap">
       <h2><span class="num">§ 18</span>Roadmap &amp; Next Steps</h2>
       <h3>Primary deliverable</h3>
-      <p>A comprehensive project roadmap with milestones — from current position to the five-year vision. Concrete checkpoints across all layers (Regrarians 10): land, water, buildings, energy, animals, planting, community, economy.</p>
+      <p>A comprehensive project roadmap with milestones — from current position to the five-year vision. Concrete checkpoints across all design layers: climate, geography, water, access, ecosystems, buildings, fencing, soils, economy and energy.</p>
       <h3>Technical deliverable</h3>
       <p>Off-grid / hybrid building architecture guidance. Every building designed to operate fully off-grid or on-grid, switchable. Includes passive design, solar/wind sizing, battery storage, water harvesting, composting/sewage systems — off-grid from day one with grid as backup during build-out.</p>
       <h3>Sequencing principles</h3>
@@ -637,7 +637,7 @@
   <div class="foot-inner">
     <div>
       <strong>Reconnecta</strong> — working draft v0.2-beta<br>
-      Compiled by Paweł Sroczyński &amp; Darren (REGRARIANS / Holistic Management diagnostic)<br>
+      Compiled by Paweł Sroczyński<br>
       For Norbert Roztocki · HOME 4 LIFE LDA
     </div>
     <div>
@@ -647,6 +647,61 @@
     </div>
   </div>
 </footer>
+
+<a class="to-top" href="#top" aria-label="Back to top" title="Back to top">↑</a>
+
+<script>
+(function () {
+  // Reading progress bar
+  var bar = document.querySelector('.reading-progress');
+  // Section indicator + back-to-top
+  var indicator = document.querySelector('.section-indicator span');
+  var toTop = document.querySelector('.to-top');
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main.doc section[id]'));
+  var sectionTitles = sections.map(function (s) {
+    var num = s.querySelector('h2 .num');
+    var h2 = s.querySelector('h2');
+    var title = h2 ? h2.textContent.replace(num ? num.textContent : '', '').trim() : '';
+    return { id: s.id, num: num ? num.textContent.trim() : '', title: title };
+  });
+  var titleById = {};
+  sectionTitles.forEach(function (t) { titleById[t.id] = t; });
+
+  function setIndicator(id) {
+    if (!indicator) return;
+    var t = titleById[id];
+    if (!t) { indicator.parentNode.classList.remove('on'); return; }
+    indicator.textContent = t.num + ' · ' + t.title;
+    indicator.parentNode.classList.add('on');
+  }
+
+  // Track current section with IntersectionObserver (top 30% of viewport)
+  if ('IntersectionObserver' in window && sections.length) {
+    var current = null;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) current = e.target.id;
+      });
+      if (current) setIndicator(current);
+    }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+    sections.forEach(function (s) { io.observe(s); });
+  }
+
+  // Progress + to-top visibility
+  function onScroll() {
+    var doc = document.documentElement;
+    var max = doc.scrollHeight - doc.clientHeight;
+    var pct = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+    if (bar) bar.style.transform = 'scaleX(' + (pct / 100) + ')';
+    if (toTop) toTop.classList.toggle('visible', doc.scrollTop > 600);
+    // Hide indicator near top of page
+    var ind = document.querySelector('.section-indicator');
+    if (ind) ind.classList.toggle('hide', doc.scrollTop < 200);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+})();
+</script>
 
 </body>
 </html>

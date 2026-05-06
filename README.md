@@ -153,7 +153,7 @@ If you fork the repo and want to swap in your own visual reference: replace the 
 
 ## Provenance
 
-Reconnecta is part of the [Enklava](https://enklava.co/) ecosystem of projects. This document was compiled by Paweł Sroczyński together with Darren — a structured-interview agent built on the Regrarians Platform / Holistic Management methodology — based on conversations with Norbert Roztocki between March and May 2026.
+Reconnecta is part of the [Enklava](https://enklava.co/) ecosystem of projects. This document was compiled by Paweł Sroczyński based on conversations with Norbert Roztocki between March and May 2026.
 
 It is a working draft. The bigger plan — Hotel Rural 3★ permit decision, soil tests, climate data, fire plan, operational manager hire, financial model — is the work that turns this draft into a roadmap.
 

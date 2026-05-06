@@ -43,7 +43,7 @@ Reconnecta is a 4.83-hectare regenerative project under development on the weste
 
 The project is organised around three interlocking commitments: a family home, a working ecosystem, and a place where others learn what it took to build it. The hospitality layer (a 10-unit Hotel Rural 3★, currently in the Portuguese pre-permit (PIP) stage) funds the operation; the workshops, residencies and research programme give it meaning; the land itself — soils, water, oaks, horses, food — is both medium and message.
 
-Reconnecta is being built by Norbert Roztocki and family, with Paweł Sroczyński as project manager and Darren as land advisor (Regrarians Platform / Holistic Management). It is not a retreat centre, not a commune, not a brand. It is a place.
+Reconnecta is being built by Norbert Roztocki and family, with Paweł Sroczyński as project manager. It is not a retreat centre, not a commune, not a brand. It is a place.
 
 This document describes what is known, what is being designed, and what remains to be answered. Open questions are flagged in line as `[PENDING — …]` and registered in §19 so they can be tracked rather than hidden.
 
@@ -55,7 +55,7 @@ Every design decision in this project is tested against a single sentence — th
 
 > *Wake up, ride on the land, have a swim in a natural lake, meet some artists, have lunch made from locally grown vegetables, meet friends and people coming for the workshop who want to see how a self-sustainable project can exist and function.*
 
-Behind that sentence sit three pillars (Holistic Management framing):
+Behind that sentence sit three pillars:
 
 **Quality of life.** Family home. Horses. Creativity. Guests. Community. Nature immersion. Freedom from dependency on external systems.
 
@@ -117,7 +117,6 @@ A biologist has been engaged to conduct a full ecological survey (fauna, flora, 
 |------|--------|--------|
 | Investor & strategic owner | Norbert Roztocki | Active |
 | Project manager | Paweł Sroczyński | Active — `[PENDING — Q8] formal scope/contract` |
-| Land advisor (Regrarians/HM) | Darren | Active |
 | Architect | João Carlos Fonseca Jorge (OA #18423, Serra d'El-Rei) | Engaged |
 | Topographic surveyor | TPG Lda | Engaged |
 | Biologist | Engaged | Survey in progress |
@@ -398,7 +397,7 @@ Full per-project profiles: `research/portugal-reference-projects.md`.
 
 ### Primary deliverable
 
-A comprehensive project roadmap with milestones — from current position to the five-year vision. Concrete checkpoints across all layers (Regrarians 10): land, water, buildings, energy, animals, planting, community, economy.
+A comprehensive project roadmap with milestones — from current position to the five-year vision. Concrete checkpoints across all design layers: climate, geography, water, access, ecosystems, buildings, fencing, soils, economy and energy.
 
 ### Technical deliverable
 
@@ -502,6 +501,6 @@ The diagnostic captured a strong qualitative picture. The follow-up below is the
 ---
 
 *Reconnecta — working draft v0.2-beta · 2026-05-06*
-*Compiled by Paweł Sroczyński and Darren (REGRARIANS / Holistic Management diagnostic)*
+*Compiled by Paweł Sroczyński*
 *For Norbert Roztocki · HOME 4 LIFE LDA*
 *Source matrix: `whitepaper/matrix.md`*
