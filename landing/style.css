@@ -62,7 +62,14 @@ a:hover { color: var(--moss-500); }
   max-width: var(--max);
   margin: 0 auto;
   padding: 0.85rem 1.5rem;
-  display: flex; align-items: center; gap: 2rem;
+  display: flex; align-items: center; gap: 1.25rem;
+}
+@media (max-width: 720px) {
+  .topbar-inner { padding: 0.7rem 1rem; gap: 0.5rem; }
+  .topbar-inner .crumbs { display: none; }
+  .topbar-inner > .brand { margin-right: auto; }
+  .cta { padding: 0.4rem 0.75rem; font-size: 11px; }
+  .topbar-inner > .cta + .cta { margin-left: 0.35rem; }
 }
 .brand {
   font-family: var(--serif);
@@ -257,6 +264,74 @@ a:hover { color: var(--moss-500); }
 .toc a { color: var(--ink-soft); text-decoration: none; }
 .toc a:hover { color: var(--clay-700); }
 @media (max-width: 880px) { .toc { display: none; } }
+
+/* ---------- mobile TOC (collapsible) ---------- */
+
+.toc-mobile { display: none; }
+
+@media (max-width: 880px) {
+  .toc-mobile {
+    display: block;
+    margin: 0 0 2rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--clay-50);
+    font-family: var(--sans);
+    font-size: 14px;
+  }
+  .toc-mobile > summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 0.85rem 1rem;
+    font-weight: 500;
+    color: var(--clay-700);
+    letter-spacing: 0.02em;
+    position: relative;
+    user-select: none;
+  }
+  .toc-mobile > summary::-webkit-details-marker { display: none; }
+  .toc-mobile > summary::after {
+    content: "▾";
+    position: absolute;
+    right: 1rem; top: 50%;
+    transform: translateY(-50%);
+    color: var(--clay-500);
+    font-size: 12px;
+    transition: transform 120ms ease;
+  }
+  .toc-mobile[open] > summary::after { transform: translateY(-50%) rotate(180deg); }
+  .toc-mobile-hint {
+    color: var(--ink-soft);
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 0.4rem;
+  }
+  .toc-mobile ol {
+    list-style: none;
+    margin: 0;
+    padding: 0.4rem 1rem 1rem;
+    counter-reset: tocm;
+    border-top: 1px solid var(--line);
+  }
+  .toc-mobile li {
+    counter-increment: tocm;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid rgba(214,200,176,0.4);
+  }
+  .toc-mobile li:last-child { border-bottom: 0; }
+  .toc-mobile li::before {
+    content: counter(tocm, decimal-leading-zero) "  ";
+    color: var(--clay-300);
+    font-variant-numeric: tabular-nums;
+    font-size: 11px;
+    margin-right: 0.4rem;
+  }
+  .toc-mobile a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .toc-mobile a:active { color: var(--clay-700); }
+}
 
 /* ---------- doc body ---------- */
 
