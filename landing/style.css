@@ -524,73 +524,46 @@ a:hover { color: var(--moss-500); }
 
 /* ---------- stages (project roadmap) ---------- */
 
-.stages {
-  list-style: none;
-  margin: 2rem 0 2.5rem;
-  padding: 0;
+.stages-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 13.5px;
+  margin: 1.5rem 0 2rem;
 }
-.stage {
-  display: grid;
-  grid-template-columns: 3.2rem 1fr;
-  gap: 1.4rem;
-  padding: 1.2rem 0;
-  align-items: start;
-  position: relative;
-}
-.stage::before {
-  content: "";
-  position: absolute;
-  left: 1.55rem;
-  top: 4.4rem;
-  bottom: -1.2rem;
-  width: 1px;
-  background: var(--clay-300);
-  z-index: 0;
-}
-.stage:last-child::before { display: none; }
-
-.stage-num {
-  font-family: var(--serif);
+.stages-table th {
+  text-align: left;
   font-weight: 500;
-  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: var(--clay-500);
+  border-bottom: 1px solid var(--clay-300);
+  padding: 0.55rem 0.5rem;
+}
+.stages-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.85rem 0.5rem;
+  vertical-align: top;
+  color: var(--ink);
+}
+.stages-table .stage-n {
+  font-family: var(--serif);
+  font-size: 1.25rem;
   color: var(--clay-500);
   font-variant-numeric: tabular-nums;
-  line-height: 1;
-  width: 3.2rem;
-  height: 3.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--clay-300);
-  border-radius: 999px;
-  background: var(--paper);
-  position: relative;
-  z-index: 1;
+  width: 2.5rem;
+  white-space: nowrap;
 }
-.stage-current .stage-num {
-  background: var(--clay-700);
-  color: var(--paper);
-  border-color: var(--clay-700);
-  box-shadow: 0 4px 14px rgba(34,22,16,0.18);
+.stages-table tr.stage-current {
+  background: var(--clay-50);
 }
-.stage:not(.stage-current) .stage-num {
-  color: var(--clay-500);
-}
-
-.stage-body { padding-top: 0.35rem; }
-.stage-body h3 {
-  margin: 0 0 0.3rem;
+.stages-table tr.stage-current .stage-n {
   color: var(--clay-900);
-  font-family: var(--serif);
-  font-size: 1.15rem;
   font-weight: 600;
 }
-.stage-current .stage-body h3 { color: var(--clay-900); }
-.stage-body p {
-  margin: 0 0 0.55rem;
-  color: var(--ink-soft);
-  font-size: 0.95rem;
-  line-height: 1.55;
+.stages-table tr.stage-current td {
+  border-bottom-color: var(--clay-300);
 }
 
 .stage-status {
@@ -605,6 +578,7 @@ a:hover { color: var(--moss-500); }
   background: var(--clay-50);
   color: var(--ink-soft);
   border: 1px solid var(--line);
+  white-space: nowrap;
 }
 .status-current {
   background: var(--clay-700);
@@ -741,8 +715,8 @@ hr.rule {
   @page { size: A4; margin: 18mm 16mm 20mm 16mm; }
   html, body { background: #fff !important; color: #000 !important; font-size: 10.5pt; }
   .topbar, .toc, .toc-mobile, .cta, footer.foot, .reading-progress, .section-indicator, .to-top { display: none !important; }
-  .stage { page-break-inside: avoid; }
-  .stage-num, .stage-current .stage-num, .stage-status, .status-current, .stage::before { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .stages-table tr { page-break-inside: avoid; }
+  .stages-table tr.stage-current, .stage-status, .status-current { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .doc-layout { grid-template-columns: 1fr; gap: 0; padding: 0; max-width: none; }
   .hero {
     padding: 0; max-width: none;
