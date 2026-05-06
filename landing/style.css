@@ -146,10 +146,10 @@ a:hover { color: var(--moss-500); }
   z-index: 1;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 7rem 1.5rem 4rem;
+  padding: 3.5rem 1.5rem 2rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
+  gap: 0;
 }
 .hero-eyebrow {
   font-family: var(--sans);
@@ -157,15 +157,15 @@ a:hover { color: var(--moss-500); }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--clay-200);
-  margin: 0 0 1rem;
+  margin: 0 0 0.6rem;
 }
 .hero-title {
   font-family: var(--serif);
   font-weight: 400;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(2.6rem, 6vw, 4.4rem);
   line-height: 1.02;
   letter-spacing: -0.015em;
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.4rem;
   color: var(--paper);
   text-shadow: 0 2px 24px rgba(0,0,0,0.35);
 }
@@ -173,19 +173,19 @@ a:hover { color: var(--moss-500); }
   font-family: var(--serif);
   font-style: italic;
   font-weight: 400;
-  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  font-size: clamp(1.15rem, 1.9vw, 1.4rem);
   color: var(--clay-100);
-  margin: 0 0 2.5rem;
+  margin: 0 0 1.4rem;
   max-width: 32ch;
 }
 .hero-quote {
   font-family: var(--serif);
-  font-size: 1.2rem;
-  line-height: 1.55;
+  font-size: 1.1rem;
+  line-height: 1.5;
   color: var(--paper);
   border-left: 2px solid var(--clay-300);
-  padding: 0.4rem 0 0.4rem 1.5rem;
-  margin: 0 0 1rem;
+  padding: 0.2rem 0 0.2rem 1.25rem;
+  margin: 0 0 0.5rem;
   max-width: 36rem;
   text-shadow: 0 1px 12px rgba(0,0,0,0.4);
 }
@@ -195,15 +195,16 @@ a:hover { color: var(--moss-500); }
   letter-spacing: 0.05em;
   color: var(--clay-200);
   text-transform: uppercase;
+  margin: 0;
 }
 .hero-meta {
-  display: flex; flex-wrap: wrap; gap: 2rem;
+  display: flex; flex-wrap: wrap; gap: 1.4rem 2rem;
   font-family: var(--sans);
   font-size: 12px;
   color: var(--clay-100);
   border-top: 1px solid rgba(237,226,208,0.25);
-  padding-top: 1.5rem;
-  margin-top: 1rem;
+  padding-top: 1.1rem;
+  margin-top: 1.4rem;
 }
 .hero-meta dt {
   letter-spacing: 0.1em;
