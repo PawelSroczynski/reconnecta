@@ -82,7 +82,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css?v=20260506-19">
+<link rel="stylesheet" href="style.css?v=20260506-20">
 </head>
 <body>
 
@@ -723,6 +723,16 @@
     indicator.parentNode.classList.add('on');
   }
 
+  function setActiveToc(id) {
+    document.querySelectorAll('.toc a.active, .toc-mobile a.active').forEach(function (a) {
+      a.classList.remove('active');
+    });
+    if (!id) return;
+    document.querySelectorAll('.toc a[href="#' + id + '"], .toc-mobile a[href="#' + id + '"]').forEach(function (a) {
+      a.classList.add('active');
+    });
+  }
+
   // Track current section with IntersectionObserver (top 30% of viewport)
   if ('IntersectionObserver' in window && sections.length) {
     var current = null;
@@ -730,7 +740,7 @@
       entries.forEach(function (e) {
         if (e.isIntersecting) current = e.target.id;
       });
-      if (current) setIndicator(current);
+      if (current) { setIndicator(current); setActiveToc(current); }
     }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
     sections.forEach(function (s) { io.observe(s); });
   }
