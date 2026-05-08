@@ -50,6 +50,29 @@ Re-render any time the markdown changes.
 
 ---
 
+## 2026-01 — PIP submission package (Pedido de Informação Prévia)
+
+The pre-permit information request submitted by HOME 4 LIFE LDA to the Caldas da Rainha municipality in January 2026. Six files — five thematic volumes plus a single combined PDF.
+
+| File | Pages | Size | What's inside |
+|------|-------|------|---------------|
+| [`2026-01-PIP-all-documents.pdf`](./2026-01-PIP-all-documents.pdf) | combined | 20 MB | All five volumes merged into a single document — convenience copy |
+| [`2026-01-PIP-V1-cadastral.pdf`](./2026-01-PIP-V1-cadastral.pdf) | 22 | 8.5 MB | Cadastral certificates and land-ownership documentation |
+| [`2026-01-PIP-V2-project-visuals-biodiversity.pdf`](./2026-01-PIP-V2-project-visuals-biodiversity.pdf) | 18 | 18 MB | Project narrative, environmental description (Portuguese), biodiversity context, *zonas húmidas* mapping |
+| [`2026-01-PIP-V3-topographic-site-plans.pdf`](./2026-01-PIP-V3-topographic-site-plans.pdf) | 16 | 15 MB | Topographic survey by TPG Lda (1:500), site plans, contour data |
+| [`2026-01-PIP-V4-cross-sections-infra.pdf`](./2026-01-PIP-V4-cross-sections-infra.pdf) | 9 | 6.2 MB | N–S and W–E cross-sections (1:500), infrastructure plan (water, electricity, sewage from Travessa da Avé Maria), photovoltaic siting |
+| [`2026-01-PIP-V5-renderings-site-overview.pdf`](./2026-01-PIP-V5-renderings-site-overview.pdf) | 2 | 18 MB | Architectural renderings labelled *RECONECTA \| ENTRADA* and *RECONECTA \| VISTA* (entrance + view); plus aerial site overview |
+
+**Architect:** Arq.º João Carlos Fonseca Jorge (OA #18423, Serra d'El-Rei) — professional indemnity Ageas Portugal #008410215055.
+
+**Submission date:** January 2026 to Caldas da Rainha Câmara Municipal.
+
+**Status:** awaiting municipal response (PIP cycles in rural Portugal typically run 6–18 months).
+
+**Note on naming.** The architect's renderings in V5 carry the project name *"RECONECTA"* (single ‘n’). The whitepaper uses *"Reconnecta"* (double ‘n’) — the project's adopted brand. The PIP filings can be re-titled at a later stage to match if needed.
+
+---
+
 ## How to add a new attachment
 
 1. Drop the source file into this directory, prefixed with `YYYY-MM-DD-` so chronology is obvious.
