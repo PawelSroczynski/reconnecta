@@ -117,7 +117,7 @@ PIP submission package includes cadastral plans, topographic survey, satellite a
 
 ## 5. Land History
 
-The land was acquired by HOME 4 LIFE LDA in February 2019 and has been in planning since. What sits on it now is the surface of a much longer story — the BioPiscinas landscape-planning study (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung*, April 2026) reads the place across three time-scales.
+The land was acquired by HOME 4 LIFE LDA in February 2019 and has been in planning since. What sits on it now is the surface of a much longer story — the BioPiscinas landscape-planning study reads the place across three time-scales (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung*, April 2026 · [EN PDF](attachments/2026-05-07-Landschaft-Assessment-EN.pdf) · [DE original](attachments/2026-05-07-Landschaftsplanerische-Bewertung.pdf)).
 
 **Pre-modern.** Systematic deforestation under Roman and Moorish settlement; from the 19th to mid-20th century, intensive viticulture, orchards and small-parcel polyculture shaped the regional mosaic that is still legible today.
 
@@ -170,7 +170,7 @@ The report flags that *"intensive Eingriffe wie Baumpflanzungen und Fällen der 
 
 ## 7. Climate
 
-The BioPiscinas study (April 2026) provides the first quantitative climate frame for the parcel.
+Climate frame for the parcel (Schwarzer & Schwarzer, April 2026):
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
@@ -197,7 +197,7 @@ The BioPiscinas study (April 2026) provides the first quantitative climate frame
 
 ## 8. Water
 
-The BioPiscinas study reframes the hydrology of the parcel. **What earlier documents called a "seasonal stream" is, in fact, a centuries-old artificial drainage ditch** dewatering a natural depression at the foot of the eucalyptus plot — *"die auf dem Grundstück vorhandene Senke war einst ein See oder ein Sumpfgebiet."* Without the ditch the depression would have no outflow. This shifts the design vocabulary from *"manage a stream"* to *"decide whether to keep dewatering, or restore the lake."*
+The watercourse that runs across the parcel is a **centuries-old artificial drainage ditch** dewatering a natural depression at the foot of the eucalyptus plot — *"die auf dem Grundstück vorhandene Senke war einst ein See oder ein Sumpfgebiet."* Without the ditch the depression would have no outflow. The constitutional question for the project is therefore whether to keep dewatering or restore the lake.
 
 ### What the site is
 
@@ -237,7 +237,7 @@ Nadadouro lies on the **Caldas thermal region** (Caldas da Rainha basin = a salt
 
 ## 9. Soil & Ecosystems
 
-The BioPiscinas study replaces the earlier qualitative model of the soil and the vegetation with a Natura 2000-keyed reading of the place.
+The soil and vegetation of the parcel are read here through Natura 2000 habitat codes (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung*, April 2026).
 
 ### Two-zone geological/soil model
 
@@ -246,7 +246,7 @@ The BioPiscinas study replaces the earlier qualitative model of the soil and the
 | **Eastern hill** (eastern oak plot + part of the eucalyptus plot) | Dagorda marl, limestone, clay, dolomite — basic soils | **Portuguese oak (*Quercus faginea*) forest** | **9240** — Iberian *Q. faginea* / *Q. canariensis* forests |
 | **Valley plots** (lower section, north and south) | Plio-Pleistocene sands, sandstones, gravels — Astian Complex (Nadadouro / Águas Santas) — acidophilic, podzolised | **Cork oak (*Quercus suber*) forest** — *not preserved on the parcel* | **9330** (potential); current cover is **4030 / 4030pt3** dry/Atlantic gorse heath, the degraded successor stage |
 
-**Important correction to earlier descriptions of this project.** The native vegetation of the *lower* section is *not* preserved oak/pine — the cork oak forest that should be there has been replaced by *Ulex europaeus latebracteatus* gorse heath, the degradation stage that follows cork-oak loss. The well-preserved oak stand sits on the *eastern hill*, and is *Quercus faginea* (not cork oak) — a regionally rare and Natura-2000-listed habitat of significant conservation value.
+The lower section's current cover is *Ulex europaeus latebracteatus* gorse heath — the degradation stage that follows cork-oak loss. The well-preserved oak stand sits on the *eastern hill* and is *Quercus faginea* — a regionally rare, Natura-2000-listed habitat of significant conservation value.
 
 ### Habitats inventoried by BioPiscinas
 
