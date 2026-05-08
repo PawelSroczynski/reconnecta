@@ -6,8 +6,9 @@ External documents commissioned for or produced about the Reconnecta parcel. Eac
 
 ## 2026-05-07 — Landschaftsplanerische Bewertung (BioPiscinas study)
 
-**Original (German):** [`2026-05-07-Landschaftsplanerische-Bewertung.pdf`](./2026-05-07-Landschaftsplanerische-Bewertung.pdf) · 2.7 MB · 25 pages
+**Original (German PDF):** [`2026-05-07-Landschaftsplanerische-Bewertung.pdf`](./2026-05-07-Landschaftsplanerische-Bewertung.pdf) · 2.7 MB · 25 pages — authoritative source
 **English translation (markdown):** [`2026-05-07-Landschaft-Assessment-EN.md`](./2026-05-07-Landschaft-Assessment-EN.md) · 47 KB
+**English translation (PDF):** [`2026-05-07-Landschaft-Assessment-EN.pdf`](./2026-05-07-Landschaft-Assessment-EN.pdf) · 119 KB · 16 pages — built from the markdown via pandoc + xelatex
 
 **Title (DE):** *Landschaftsplanerische Bewertung und Entwicklungsvorschläge inclusive Wasserkonzept — Vorläufige Arbeitsversion der Vorstudie*
 **Title (EN):** Landscape-Planning Assessment and Development Proposals, Including Water Concept — Preliminary Working Version of the Preliminary Study
@@ -34,6 +35,18 @@ The document is explicitly a *Vorläufige Arbeitsversion der Vorstudie* — a pr
 ### Translation notes
 
 The English markdown is a working translation produced 2026-05-08 for the Reconnecta whitepaper pipeline. Latin scientific names are preserved; figure references are kept as bracketed placeholders since pdftotext doesn't extract images. Where meaning is at stake, the German original is quoted alongside the translation. The German PDF remains the authoritative source.
+
+The PDF version was rendered from the markdown via:
+
+```bash
+pandoc 2026-05-07-Landschaft-Assessment-EN.md \
+  -o 2026-05-07-Landschaft-Assessment-EN.pdf \
+  --pdf-engine=xelatex \
+  -V geometry:margin=2cm \
+  --toc
+```
+
+Re-render any time the markdown changes.
 
 ---
 
