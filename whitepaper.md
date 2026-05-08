@@ -34,6 +34,7 @@
 18. [Values & Principles](#18-values--principles)
 19. [Open Questions](#19-open-questions)
 20. [Appendix — Wish List](#20-appendix--wish-list)
+21. [Source Documents](#21-source-documents)
 
 ---
 
@@ -565,6 +566,34 @@ The diagnostic captured a strong qualitative picture. The follow-up below is the
 **Other animals.** Chickens. Dogs. Bees.
 
 **Sauna & wellness spa.** Several natural ponds (cold and warm, varying depths). Massage room. Wood-fired sauna.
+
+---
+
+## 21. Source Documents
+
+The studies and filings cited throughout this whitepaper are hosted alongside it. Each link points to the original PDF as published / submitted; English translations are provided where the source is in another language.
+
+### PIP submission package — January 2026
+
+Pre-permit information request (*Pedido de Informação Prévia*) submitted by HOME 4 LIFE LDA to Caldas da Rainha municipality. Five thematic volumes plus a single combined PDF.
+
+- [PIP — all documents (combined)](attachments/2026-01-PIP-all-documents.pdf) · 20 MB
+- [PIP V1 — cadastral certificates](attachments/2026-01-PIP-V1-cadastral.pdf) · 22 pp · 8.5 MB
+- [PIP V2 — project narrative + biodiversity](attachments/2026-01-PIP-V2-project-visuals-biodiversity.pdf) · 18 pp · 18 MB
+- [PIP V3 — topographic site plans (TPG Lda, 1:500)](attachments/2026-01-PIP-V3-topographic-site-plans.pdf) · 16 pp · 15 MB
+- [PIP V4 — cross-sections + infrastructure](attachments/2026-01-PIP-V4-cross-sections-infra.pdf) · 9 pp · 6.2 MB
+- [PIP V5 — architect renderings + site overview](attachments/2026-01-PIP-V5-renderings-site-overview.pdf) · 2 pp · 18 MB
+
+### Landscape-planning study — April 2026
+
+Schwarzer & Schwarzer, *Rewilding by BioPiscinas Lda* (Aljezur). Preliminary working version of the preliminary study.
+
+- [Landschaftsplanerische Bewertung — DE original](attachments/2026-05-07-Landschaftsplanerische-Bewertung.pdf) · 25 pp · 2.7 MB · *authoritative source*
+- [Landscape-Planning Assessment — EN translation](attachments/2026-05-07-Landschaft-Assessment-EN.pdf) · 16 pp · 119 KB · working translation
+
+### Source repository
+
+The full source of this site (whitepaper text, landing page, build scripts, basemap data, attachments) lives at [github.com/PawelSroczynski/reconnecta](https://github.com/PawelSroczynski/reconnecta). Self-host instructions for `reconnecta.world` are in the repository's README.
 
 ---
 
