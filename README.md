@@ -21,6 +21,8 @@ reconnecta/
 │   └── reconnecta-whitepaper.pdf   ← downloadable build
 ├── basemap/                   ← Regrarians basemap delivery (130 MB · GeoTIFF DTM + 60 KMZ + boundary + legends)
 │   └── README.md              ← layer-by-layer manifest and reading order
+├── attachments/               ← source documents (original + translations) cited in the whitepaper
+│   └── README.md              ← per-document description, why it matters, translation notes
 └── scripts/
     ├── build-pdf.sh           ← regenerate the PDF from the landing
     └── deploy.example.sh      ← deploy template for your own host
@@ -150,6 +152,12 @@ The script writes to `landing/reconnecta-whitepaper.pdf`.
 §13 *Aesthetic Direction* embeds a live Miro board (`taipa house / clay`) curated by Norbert as the project's visual constitution. The embed is hidden in the printed PDF and replaced by a textual note pointing to the web edition — Miro is interactive in nature and does not render meaningfully on paper.
 
 If you fork the repo and want to swap in your own visual reference: replace the `<iframe>` block in `landing/index.html` (search for `<!--` `Miro` or for `miro.com`).
+
+---
+
+## Source documents (`attachments/`)
+
+External studies and reports cited in the whitepaper live under `attachments/`. Each file is kept in its original form (e.g. the original German PDF), with English translations or extracts beside it where useful. Currently includes the BioPiscinas landscape-planning study (Schwarzer & Schwarzer, April 2026, 25 pages) — the source for climate figures, Natura-2000 habitats, and the water-system reframing in §5/§7/§8/§9 of the whitepaper. See [`attachments/README.md`](./attachments/README.md) for the per-document manifest.
 
 ---
 

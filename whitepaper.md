@@ -1,7 +1,7 @@
 # Reconnecta
 ## A Regenerative Living Laboratory at Óbidos Lagoon
 
-*Working draft v0.2-beta — 2026-05-06*
+*Working draft v0.3-beta — 2026-05-08*
 *An Enklava ecosystem project · enklava.co/projects/reconnecta*
 
 ---
@@ -117,15 +117,30 @@ PIP submission package includes cadastral plans, topographic survey, satellite a
 
 ## 5. Land History
 
-The land was acquired in February 2019 and has been in planning since. The upper section was a eucalyptus plantation before acquisition; the trees have since been cleared. Eucalyptus leaves a measurable legacy — soil acidification, allelopathic compounds that can persist five to ten years, and severe compaction — which directly drives the soil-remediation strategy in §9.
+The land was acquired by HOME 4 LIFE LDA in February 2019 and has been in planning since. What sits on it now is the surface of a much longer story — the BioPiscinas landscape-planning study (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung*, April 2026) reads the place across three time-scales.
 
-The lower section's pre-acquisition history is less clear. The native vegetation (oak, pine) suggests it was either never plantation-managed or has had decades to recover.
+**Pre-modern.** Systematic deforestation under Roman and Moorish settlement; from the 19th to mid-20th century, intensive viticulture, orchards and small-parcel polyculture shaped the regional mosaic that is still legible today.
 
-A biologist has been engaged to conduct a full ecological survey (fauna, flora, invasives). An initial landscape and water assessment was delivered on 2026-04-28; further results are pending.
+**Industrial-era trace.** The Nadadouro basin saw **brown-coal (lignite) mining** through the 19th and early 20th century, peaking around the World Wars. A 1959 geological map already lists the mine as decommissioned. The artificial drainage ditch that runs through the parcel today is hypothesised by BioPiscinas to date from this mining era — dewatering the natural depression at the foot of the eucalyptus plot. *"Oberflächlich kaum noch etwas zu sehen,"* the report notes — but atypical depressions remain in the topography, and the ditch shapes the hydrology to this day (see §8).
 
-`[PENDING — Q15] When were the eucalyptus trees removed, and were the stumps chemically treated? This determines remediation timelines and whether we need to test for residual herbicide before any food-bearing planting.`
+**The last twenty years on this parcel.** Aerial-photo time-series cited in the BioPiscinas study:
 
-`[PENDING — Q29] Detailed account of physical work undertaken between acquisition (2019) and present.`
+| Year | Dominant cover |
+|------|----------------|
+| 2006 | Forestry plantations dominate |
+| 2018 | Sand-fields / freshly growing eucalyptus on the SE plot |
+| 2022 | Heath species (*Ulex europaeus latebracteatus*) dominate northern plots |
+| 2023 | Planted forestry trees becoming dominant again |
+
+The report flags that *"intensive Eingriffe wie Baumpflanzungen und Fällen der Bäume sowie Umackern des Bodens"* — repeated planting, felling and ploughing within a 20-year window — has consequences for both biodiversity and the water balance of the place.
+
+**Current state at fieldwork (April 2026).** The eucalyptus stand has already been cut. Small native oaks and cork oaks are regenerating on the N/NW slope. The understorey of the eastern oak grove was recently cut as a fire-prevention action — BioPiscinas flags this as counter-productive (cleared dry undergrowth propagates fire faster than structured moist undergrowth; see §7 fire risk).
+
+**The constant.** *"Einzig konstantes Element in der Landschaft ist der naturnahe Waldbestand auf dem Grundstück am Ostrand"* — across all four aerial epochs, the only stable feature is the near-natural oak forest on the eastern edge of the parcel. That stand is the project's deepest ecological asset.
+
+`[PENDING — Q15] Exact date of the eucalyptus felling (between 2018 and 2023, not yet pinned) and whether stumps were chemically treated.`
+
+`[PENDING — Q29] Who held the land before HOME 4 LIFE LDA (2019); who planted the 2006 forestry stand.`
 
 ---
 
@@ -155,61 +170,124 @@ A biologist has been engaged to conduct a full ecological survey (fauna, flora, 
 
 ## 7. Climate
 
-This section is intentionally a placeholder. **No quantitative climate data has yet been collected for the parcel** beyond the regional understanding that this is Atlantic-Portugal Mediterranean: wet winters, dry summers, mild temperatures, coastal wind. Without numbers, none of the design layers downstream — water, planting, energy, fire — can be properly sized.
+The BioPiscinas study (April 2026) provides the first quantitative climate frame for the parcel.
 
-Required for the next revision (IPMA station data for Caldas da Rainha is acceptable):
+| Parameter | Value | Source |
+|-----------|-------|--------|
+| Köppen classification | **Csb** — Mediterranean, dry-cool summers, Atlantic | BioPiscinas 1.4 |
+| Annual precipitation | **694 mm** | BioPiscinas 1.4 |
+| Mean annual temperature | ~21 °C | BioPiscinas 1.4 |
+| Cold-month night average | 7 °C | BioPiscinas 1.4 |
+| Warm-month night average | 17 °C | BioPiscinas 1.4 |
+| Highest recorded | **39 °C** (September 2016) | BioPiscinas 1.4 |
+| Lowest recorded | **8 °C** (February 2016) | BioPiscinas 1.4 |
+| Frost | *"Frost ist selten"* — rare | BioPiscinas 1.4 |
+| Wind | *"weht oft sehr kräftig"* — often strong; direction unspecified | BioPiscinas 1.4 |
+| Dry season | > 3 months in summer; evaporation exceeds precipitation | BioPiscinas 1.4 |
 
-- `[PENDING — Q1]` Annual rainfall (mm/year) and monthly distribution
-- `[PENDING — Q4]` Frost days per year, by month
-- `[PENDING — Q5]` Prevailing wind directions and average / peak speeds
-- `[PENDING — Q6]` Wildfire history (last 20 years) and PMDFCI fire-risk classification for this parcel
+**Fire risk — counter-intuitive finding.** The BioPiscinas report contains a specific warning relevant to the parcel: clearing the understorey of the eastern oak grove, done as a "fire-prevention" measure before fieldwork, *"führt genau zum Gegenteil von dem, was mit der Aktion gemeint war, zu mehr Feuergefahr"* — leads to *more* fire risk, not less. Dry, exposed fuel propagates fire faster than structured moist undergrowth. This is consequential for any future fire plan, and contradicts the intuitive but mistaken practice common in the region.
 
-The fire-risk question is the most consequential. This is ex-eucalyptus land in Atlantic Portugal, with the owner absent in July and August. A working fire plan is impossible to draft without the underlying classification — and irresponsible to defer beyond the next planning cycle.
+**Still open.** Wind direction, frost-day count and the parcel's PMDFCI fire-risk classification are not in the BioPiscinas study and are still pending from municipal sources.
+
+- `[PENDING — Q4]` Frost-day count per year (only "rare" so far)
+- `[PENDING — Q5]` Prevailing wind direction and peak speeds
+- `[PENDING — Q6]` PMDFCI fire-risk classification for this parcel + wildfire history within ~5 km
 
 ---
 
 ## 8. Water
 
-The parcel is water-rich by Iberian standards — the design problem is capture, slowing, storage and distribution, not scarcity.
+The BioPiscinas study reframes the hydrology of the parcel. **What earlier documents called a "seasonal stream" is, in fact, a centuries-old artificial drainage ditch** dewatering a natural depression at the foot of the eucalyptus plot — *"die auf dem Grundstück vorhandene Senke war einst ein See oder ein Sumpfgebiet."* Without the ditch the depression would have no outflow. This shifts the design vocabulary from *"manage a stream"* to *"decide whether to keep dewatering, or restore the lake."*
+
+### What the site is
 
 | Source | Status | Notes |
 |--------|--------|-------|
-| Municipal mains | Available | Reliable year-round; PIP confirms connection |
+| Municipal mains | Available | Reliable year-round; PIP confirms connection. Connection obligation likely applies for tourist-grade potable use |
 | Rainwater storage | Planned | Buffer + capture |
-| Borehole | Planned, siting underway | Targets high-quality drinking water; APA licence `[PENDING — Q12]` |
-| Seasonal stream (lower section) | Existing | Wet-season flow; summer behaviour `[PENDING — Q13]` |
-| Wetland & biological lakes | Planned (PIP) | "Zonas húmidas" identified; lagos biológicos shown on site plan |
+| Artificial drainage ditch | Existing, anthropogenic | Centuries old. Cuts through the oak hill, dewaters the depression. Possibly mining-era (see §5) |
+| Natural depression / former lake | Latent | Former lake/swamp at the foot of the eucalyptus plot. Shallow groundwater near surface year-round |
+| Borehole | Planned, siting underway | High-quality drinking water; APA licence `[PENDING — Q12]`. Hydrogeology warning below |
+| Plant-based wastewater treatment | Recommended (BioPiscinas) | *Pflanzenkläranlagen* — reused on tree cultivation |
 
-The stream and the wetland zones in the lower section are the project's most valuable hydrological asset. The PIP explicitly maps multiple *linhas de água* running north-west. Biological lakes are shown as planned site features — places where slowed water becomes habitat.
+### What the field signals confirm
 
-**Water demand.** No formal demand calculation has been done yet. It needs livestock numbers (six Lusitano horses + minor stock), irrigated areas (food forest, kitchen garden), and accommodation capacity (10 units, expected occupancy) to land. `[PENDING — Q2 of demand calc, downstream of Q16/Q17 on operational sizing]`
+- **Indicator species.** *Potamogeton polygonifolius* (a perennial wetland species) is present in the south-western ditch. *"Diese Art kann auf Dauer nur in naturnahen Feuchtgebieten gedeihen"* — it can only persist where high groundwater is permanent.
+- **Aerial-photo evidence.** Bright green vegetation in the southern depression visible in **September 2018** and **July 2022** — both deep into the dry season — confirms that near-surface water persists year-round, not just in wet winters. (Partial answer to Q13: the depression doesn't go fully dry; the ditch's own summer flow is still unconfirmed.)
 
-**Borehole licensing.** Drilling requires APA permit in Portugal. Application not yet initiated. `[PENDING — Q12]`
+### What BioPiscinas proposes
+
+- **Weir on the drainage ditch** to raise the water level in the depression and restore it toward its historic lake/swamp condition. This could supply horse pastures and gardens by indirect (groundwater) irrigation, possibly without dedicated summer irrigation.
+- **Five water uses to balance:** households, horse husbandry, garden, natural vegetation, plus reuse of treated wastewater.
+- **Town-water for potable**, plant-based wastewater treatment for irrigation, weir-controlled groundwater for pasture and garden.
+
+### Geothermal / mineral-water context
+
+Nadadouro lies on the **Caldas thermal region** (Caldas da Rainha basin = a salt-dome subsidence basin formed by the Dagorda Formation). Exploration drillings between Nadadouro and Foz do Arelho document **NaCl-bearing mesothermal water at 22–28 °C**, classified as *ocorrências* (not concessions). The hottest layers sit > 500–800 m deep — drilling cost is the limiter. The PDM of Caldas da Rainha lists Nadadouro–Foz do Arelho as a **zone with hydrothermal potential**.
+
+**Hydrogeology warning from BioPiscinas:** deep wells on this site are likely to strike highly mineralised, probably non-potable water. Commission a hydrological expert opinion *before* contracting a driller. Any deep drilling needs DGEG (Direção-Geral de Energia e Geologia) authorisation.
+
+### Still open
+
+- **Water demand.** No formal demand calculation yet. Needs livestock numbers (six Lusitanos + minor stock), irrigated areas (food forest, kitchen garden), and accommodation capacity (10 units × expected occupancy). `[PENDING — downstream of Q16, Q17]`
+- **APA borehole licence.** Application not yet initiated. `[PENDING — Q12]`
+- **Decision needed.** Restore the depression to a wetland (close or weir the ditch) or maintain the dewatering and design the lower section as drained pasture? This is a constitutional question for the project.
 
 ---
 
 ## 9. Soil & Ecosystems
 
-### Soil zones
+The BioPiscinas study replaces the earlier qualitative model of the soil and the vegetation with a Natura 2000-keyed reading of the place.
 
-| Zone | Quality | Status | Plan |
-|------|---------|--------|------|
-| Upper native forest | Good, fertile | Preserve | High biodiversity value — no-touch |
-| Post-eucalyptus (building / production) | Degraded, clay/sand, compacted | Active remediation | Pioneer species, horse-manure cycling, mulching. 3–5 year recovery (likely on the longer side given allelopathy persistence) |
-| Lower section / rented land | Sand/loam mix, better quality | Grazing + agriculture | Horse paddocks, food production |
-| Underlying geology | Heavy clay across site | — | Drainage and compaction management throughout |
+### Two-zone geological/soil model
 
-The PIP states the agricultural area is "*livre de contaminação química*" (free of chemical contamination), which is a legal declaration, not a laboratory result. **No formal soil tests have been conducted.** A baseline (pH, organic matter, NPK, heavy metals, compaction) is required before any planting design — both for credibility and because remediation cost is set by the answer. `[PENDING — Q14]`
+| Zone | Substrate | Potential natural vegetation | Natura 2000 |
+|------|-----------|-------------------------------|-------------|
+| **Eastern hill** (eastern oak plot + part of the eucalyptus plot) | Dagorda marl, limestone, clay, dolomite — basic soils | **Portuguese oak (*Quercus faginea*) forest** | **9240** — Iberian *Q. faginea* / *Q. canariensis* forests |
+| **Valley plots** (lower section, north and south) | Plio-Pleistocene sands, sandstones, gravels — Astian Complex (Nadadouro / Águas Santas) — acidophilic, podzolised | **Cork oak (*Quercus suber*) forest** — *not preserved on the parcel* | **9330** (potential); current cover is **4030 / 4030pt3** dry/Atlantic gorse heath, the degraded successor stage |
 
-### Ecosystems
+**Important correction to earlier descriptions of this project.** The native vegetation of the *lower* section is *not* preserved oak/pine — the cork oak forest that should be there has been replaced by *Ulex europaeus latebracteatus* gorse heath, the degradation stage that follows cork-oak loss. The well-preserved oak stand sits on the *eastern hill*, and is *Quercus faginea* (not cork oak) — a regionally rare and Natura-2000-listed habitat of significant conservation value.
 
-About two hectares of established native vegetation in the lower section: oak, pine, local Mediterranean species. The biologist's first-pass landscape and water assessment landed on 2026-04-28; full survey results — including the invasive-species baseline — are pending.
+### Habitats inventoried by BioPiscinas
 
-Adjacent to Óbidos Lagoon, the parcel sits in a documented bird corridor. The PIP notes proximity to herons, flamingos, storks, passerines and aquatic birds. Whatever is built here lives next to a Ramsar-grade ecosystem.
+| Code | Habitat | Where on parcel |
+|------|---------|-----------------|
+| **9240** | Iberian *Quercus faginea* / *Q. canariensis* forests | Eastern oak hill |
+| **6410pt4** | Portugal-endemic rush meadows with *Juncus valvatus* — relict | Wetland fringe (peripheral) |
+| **6430pt2** | Perennial hygrophilic tall-herb vegetation on permanently moist soils | Wetland fringe |
+| **4030 / 4030pt3** | Dry European / Atlantic gorse heaths | Across valley plots — degraded successor of cork-oak forest |
 
-**Watch-list:** *Acacia dealbata* (silver wattle) is endemic to the region and a regular invader on cleared land. The biologist has been flagged.
+### Red-List and notable flora
 
-`[PENDING — Q] Invasive species inventory and ecological connectivity analysis (corridors to lagoon, neighbouring montado).`
+- *Carduus lusitanicus broteroi* (Least Concern)
+- *Cheirolophus uliginosus* (Near Threatened) — peat-bog indicator
+- *Quercus extremadurensis* — RELAPE-listed (Portuguese protected species)
+- ~95 vascular plant species inventoried in the BioPiscinas vegetation survey
+
+### Confirmed invasives — small populations, eradicate now
+
+- *Acacia* spec.
+- *Carpobrotus edulis*
+- *Conyza* spec.
+- *Cortaderia sellowiana*
+
+BioPiscinas urges **immediate eradication** while populations remain localised — a window that closes fast on this kind of substrate.
+
+### Ecological connectivity
+
+The parcel sits in the **Lagoa de Óbidos catchment landscape**, a RAMSAR-protected wetland since early 2025. The eastern *Q. faginea* hill is therefore not just a local asset — it is a regionally rare, Natura-2000-listed habitat in a Ramsar-grade landscape. Whatever is built here lives next to that ecosystem.
+
+The wider regional context includes **laurel forest (*Laurus nobilis*, Natura 2000 priority habitat 5230)** as a relict palaeo-subtropical / Tertiary flora endemic to the Caldas da Rainha area (with *Prunus lusitanica*, *Myrica faya*) — not directly on the parcel but adjacent.
+
+### Soil chemistry — still pending
+
+The BioPiscinas study works from lithological inference, not laboratory analysis. **No formal soil tests** (pH, organic matter, NPK, heavy metals, compaction) have been done on the parcel. The PIP's declaration that the agricultural area is *"livre de contaminação química"* is a legal statement, not a lab result.
+
+`[PENDING — Q14]` Soil-test campaign — committed timeline. Required before any food-bearing planting.
+
+`[PENDING — fauna]` BioPiscinas covered flora and habitat; a fauna survey (birds, reptiles, amphibians, invertebrates) is still missing.
+
+`[PENDING — Juncus valvatus]` The eponymous Portuguese endemic for habitat 6410pt4 was not yet documented on-parcel (only in immediate surroundings); a targeted survey could change the habitat status.
 
 ---
 
@@ -329,7 +407,7 @@ The board is organised by category: **architecture, mass and elevation, roofs, k
 |------|--------|
 | Current revenue | Zero — fully in investment / build phase |
 | Funding source | Norbert's personal company. No external investors. No bank financing. |
-| Operating entity | HOME 4 LIFE LDA (commercial) — `[PENDING — Q18]` reconcile with stated nonprofit framing |
+| Operating entity | HOME 4 LIFE LDA (Portuguese commercial Lda., NIPC 513229477) — `[PENDING — Q18]` reconcile with stated nonprofit framing, and with the **Moveart, GmbH** named as *Auftraggeber* on the BioPiscinas study (German company — separate vehicle commissioning external work, or parallel name?) |
 | Build budget (next 12 months) | **€300,000 – €400,000** |
 | Active costs | Architects, consultants, biologist, project management |
 
@@ -441,7 +519,7 @@ The diagnostic captured a strong qualitative picture. The follow-up below is the
 
 - **Q16** Projected annual operating costs at full operation
 - **Q17** Occupancy rate and nightly-rate assumptions
-- **Q18** Legal structure: HOME 4 LIFE LDA vs. nonprofit framing — which entity operates?
+- **Q18** Legal structure: HOME 4 LIFE LDA (PT Lda., land-holder) vs. **Moveart GmbH** (DE — named as commissioning client by BioPiscinas) vs. stated nonprofit framing — which entity is which, and which one operates the hotel?
 - **Q19** Insurance — current and planned (property, guest, horse, employer)
 - **Q20** Lease terms for the rented 4–5 ha (duration, written/verbal, notice)
 
@@ -490,7 +568,7 @@ The diagnostic captured a strong qualitative picture. The follow-up below is the
 
 ---
 
-*Reconnecta — working draft v0.2-beta · 2026-05-06*
+*Reconnecta — working draft v0.3-beta · 2026-05-08*
 *Compiled by Paweł Sroczyński*
 *For Norbert Roztocki · HOME 4 LIFE LDA*
 *Source matrix: `whitepaper/matrix.md`*
