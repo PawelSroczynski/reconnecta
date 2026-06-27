@@ -1,7 +1,7 @@
 # Reconnecta
 ## A Regenerative Living Laboratory at Óbidos Lagoon
 
-*Working draft v0.3-beta — 2026-05-08*
+*Working draft v0.4-beta — 2026-06-27*
 *An Enklava ecosystem project · enklava.co/projects/reconnecta*
 
 ---
@@ -118,11 +118,11 @@ PIP submission package includes cadastral plans, topographic survey, satellite a
 
 ## 5. Land History
 
-The land was acquired by HOME 4 LIFE LDA in February 2019 and has been in planning since. What sits on it now is the surface of a much longer story — the BioPiscinas landscape-planning study reads the place across three time-scales (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung*, April 2026 · [EN PDF](attachments/2026-05-07-Landschaft-Assessment-EN.pdf) · [DE original](attachments/2026-05-07-Landschaftsplanerische-Bewertung.pdf)).
+The land was acquired by HOME 4 LIFE LDA in February 2019 and has been in planning since. What sits on it now is the surface of a much longer story — the BioPiscinas landscape-planning study reads the place across three time-scales (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung — Abschlussbericht*, June 2026 · [EN translation](attachments/2026-06-Landschaft-Abschlussbericht-EN.md) · [DE original DOCX](attachments/2026-06-Landschaftsplanerische-Abschlussbericht.docx)).
 
 **Pre-modern.** Systematic deforestation under Roman and Moorish settlement; from the 19th to mid-20th century, intensive viticulture, orchards and small-parcel polyculture shaped the regional mosaic that is still legible today.
 
-**Industrial-era trace.** The Nadadouro basin saw **brown-coal (lignite) mining** through the 19th and early 20th century, peaking around the World Wars. A 1959 geological map already lists the mine as decommissioned. The artificial drainage ditch that runs through the parcel today is hypothesised by BioPiscinas to date from this mining era — dewatering the natural depression at the foot of the eucalyptus plot. *"Oberflächlich kaum noch etwas zu sehen,"* the report notes — but atypical depressions remain in the topography, and the ditch shapes the hydrology to this day (see §8).
+**Industrial-era trace.** The Nadadouro basin saw **brown-coal (lignite) mining** through the 19th and early 20th century, peaking around the World Wars and abandoned **c. 1945** (*"abandono das minas, c. 1945,"* per the Portuguese síntese executiva). A 1959 geological map already lists the mine as decommissioned. The artificial drainage ditch that runs through the parcel today is hypothesised by BioPiscinas to date from this mining era — dewatering the natural depression at the foot of the eucalyptus plot. *"Oberflächlich kaum noch etwas zu sehen,"* the report notes — but atypical depressions remain in the topography, and the ditch shapes the hydrology to this day (see §8).
 
 **The last twenty years on this parcel.** Aerial-photo time-series cited in the BioPiscinas study:
 
@@ -159,7 +159,7 @@ The report flags that *"intensive Eingriffe wie Baumpflanzungen und Fällen der 
 
 **Norbert.** Investor, kitesurfer, natural-horsemanship practitioner. Holds final strategic and financial authority. Present 6–8 months per year — strongest in the shoulder seasons (February–May, September–November). Away during winter and peak summer. Currently committing about 12 hours per week to project planning.
 
-**Kamila.** Spouse, partner, parent. Functional role inside the operation is not yet defined. Will she be a co-decision-maker? Active on-site? The project's day-to-day stability — particularly during Norbert's absences — depends on this answer. `[PENDING — Q7]`
+**Kamila** (named *Camille* on the BioPiscinas study cover, *camilla* on the same study's plan captions). Spouse, partner, parent — and co-commissioner of the June 2026 landscape-planning study alongside Norbert. The signature on external studies makes her a documented co-decision-maker on the project's design-side. Day-to-day operational role during Norbert's absences — and whether she will be on-site — `[PENDING — Q7]`.
 
 **Paweł.** Project manager. Status (employee / contractor / partner) and authority `[PENDING — Q8]` — needs to be locked before staffing the operational layer.
 
@@ -171,7 +171,7 @@ The report flags that *"intensive Eingriffe wie Baumpflanzungen und Fällen der 
 
 ## 7. Climate
 
-Climate frame for the parcel (Schwarzer & Schwarzer, April 2026):
+Climate frame for the parcel (Schwarzer & Schwarzer, June 2026):
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
@@ -216,17 +216,35 @@ The watercourse that runs across the parcel is a **centuries-old artificial drai
 - **Indicator species.** *Potamogeton polygonifolius* (a perennial wetland species) is present in the south-western ditch. *"Diese Art kann auf Dauer nur in naturnahen Feuchtgebieten gedeihen"* — it can only persist where high groundwater is permanent.
 - **Aerial-photo evidence.** Bright green vegetation in the southern depression visible in **September 2018** and **July 2022** — both deep into the dry season — confirms that near-surface water persists year-round, not just in wet winters. (Partial answer to Q13: the depression doesn't go fully dry; the ditch's own summer flow is still unconfirmed.)
 
-### What BioPiscinas proposes
+### The water concept — six pillars
 
-- **Weir on the drainage ditch** to raise the water level in the depression and restore it toward its historic lake/swamp condition. This could supply horse pastures and gardens by indirect (groundwater) irrigation, possibly without dedicated summer irrigation.
-- **Five water uses to balance:** households, horse husbandry, garden, natural vegetation, plus reuse of treated wastewater.
-- **Town-water for potable**, plant-based wastewater treatment for irrigation, weir-controlled groundwater for pasture and garden.
+The BioPiscinas *Wasserkonzept* organises every drop on and off the parcel around six sources of supply, each with its own constraints:
 
-### Geothermal / mineral-water context
+1. **Forest as water infrastructure.** Standing woodland is itself a water-generating, water-storing system. Preserve, manage, and where possible expand the forested zones — this is the cheapest infrastructure on the property.
+2. **On-parcel retention.** Keep as much water on site as possible — this is the lever that everything else rests on (see also §10, intervention #3).
+3. **Municipal mains.** Reliable, year-round. *Anschlusszwang* (mandatory connection) likely applies for tourist-use potable water; confirm with the câmara before any drilling decisions.
+4. **Existing wells + a new shallow well.** Shallow wells are typically less mineralised than deep ones. Quality-test what is already on or adjacent to the parcel; site any new shallow well through an experienced hydrogeologist.
+5. **Deep well (Tiefbrunnen)** — only after a hydrogeological opinion. The parcel sits on the Caldas thermal region (Caldas da Rainha basin = salt-dome subsidence basin formed by the Dagorda Formation). Exploration drillings between Nadadouro and Foz do Arelho document NaCl-bearing mesothermal water at 22–28 °C; hottest layers > 500–800 m. Deep wells here are likely to strike highly mineralised, probably non-potable water. The PDM of Caldas da Rainha lists Nadadouro–Foz do Arelho as a *zone with hydrothermal potential*. Any deep drilling requires DGEG (Direção-Geral de Energia e Geologia) authorisation.
+6. **Rainwater harvest** — sized to the buildings on the architectural plan:
 
-Nadadouro lies on the **Caldas thermal region** (Caldas da Rainha basin = a salt-dome subsidence basin formed by the Dagorda Formation). Exploration drillings between Nadadouro and Foz do Arelho document **NaCl-bearing mesothermal water at 22–28 °C**, classified as *ocorrências* (not concessions). The hottest layers sit > 500–800 m deep — drilling cost is the limiter. The PDM of Caldas da Rainha lists Nadadouro–Foz do Arelho as a **zone with hydrothermal potential**.
+   | Surface | Area |
+   |---------|------|
+   | Main building (Hauptgebäude) | 608 m² |
+   | Five cabins (5 × 31 m²) | 155 m² |
+   | Three greenhouses (135 + 68 + 96 m²) | 299 m² |
+   | **Total catchment** | **1,062 m²** |
 
-**Hydrogeology warning from BioPiscinas:** deep wells on this site are likely to strike highly mineralised, probably non-potable water. Commission a hydrological expert opinion *before* contracting a driller. Any deep drilling needs DGEG (Direção-Geral de Energia e Geologia) authorisation.
+   Annual catch **up to ~670 m³/year**, capturable September–May. Decentralised storage is feasible because the buildings sit at different elevations.
+
+### Treated wastewater — sized worked example
+
+Plant-based wastewater treatment (*Pflanzenkläranlagen*) is the reuse pillar. The report's *Rechenbeispiel* (worked example) parametrises a Hotel Rural at **20 rooms × 50 % occupancy × 360 l/day/guest = 7,200 l/day raw → 3,600 l/day treated → 112 m³/month → ~1,344 m³/year** of irrigation-grade water. (Reconciliation needed against the architectural programme — see §10. `[PENDING — 10 units (§10) vs 20 rooms (§8) reconciliation]`.)
+
+Treated wastewater is delivered **subsurface only**, with a **minimum setback of 50 m** from any potable-water source (existing wells, new shallow wells, planned borehole).
+
+### Restoring the wetland — intervention proposed in §10
+
+Lowering the historic dewatering ditch's effective base level (a weir) and partial undoing of centuries of drainage is described as the central design move for the parcel. It belongs to §10 Architecture as zone #3, with permits from the environmental agency required.
 
 ### Still open
 
@@ -238,25 +256,27 @@ Nadadouro lies on the **Caldas thermal region** (Caldas da Rainha basin = a salt
 
 ## 9. Soil & Ecosystems
 
-The soil and vegetation of the parcel are read here through Natura 2000 habitat codes (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung*, April 2026).
+The soil and vegetation of the parcel are read here through Natura 2000 habitat codes (Schwarzer & Schwarzer, *Landschaftsplanerische Bewertung — Abschlussbericht*, June 2026).
 
 ### Two-zone geological/soil model
 
 | Zone | Substrate | Potential natural vegetation | Natura 2000 |
 |------|-----------|-------------------------------|-------------|
 | **Eastern hill** (eastern oak plot + part of the eucalyptus plot) | Dagorda marl, limestone, clay, dolomite — basic soils | **Portuguese oak (*Quercus faginea*) forest** | **9240** — Iberian *Q. faginea* / *Q. canariensis* forests |
-| **Valley plots** (lower section, north and south) | Plio-Pleistocene sands, sandstones, gravels — Astian Complex (Nadadouro / Águas Santas) — acidophilic, podzolised | **Cork oak (*Quercus suber*) forest** — *not preserved on the parcel* | **9330** (potential); current cover is **4030 / 4030pt3** dry/Atlantic gorse heath, the degraded successor stage |
+| **Valley plots** (lower section, north and south) | Plio-Pleistocene sands, sandstones, gravels — Astian Complex (Nadadouro / Águas Santas) — acidophilic, podzolised | **Cork oak (*Quercus suber*) forest** | **9330** — small remnant *sehr kleinflächig am Südrand* (southern edge); rest of the valley is **4030 / 4030pt3** dry/Atlantic gorse heath, the degradation stage |
 
-The lower section's current cover is *Ulex europaeus latebracteatus* gorse heath — the degradation stage that follows cork-oak loss. The well-preserved oak stand sits on the *eastern hill* and is *Quercus faginea* — a regionally rare, Natura-2000-listed habitat of significant conservation value.
+The lower section's dominant cover is *Ulex europaeus latebracteatus* gorse heath — the degradation stage that follows cork-oak loss; a small cork-oak remnant survives at the southern edge. The well-preserved oak stand on the *eastern hill* is *Quercus faginea* (with *Quercus × coutinhoi* hybrid and *Q. pseudococcifera* in the same canopy) — a regionally rare, Natura-2000-listed habitat of significant conservation value. On damp lee slopes the same series can regress / refuge into **\*5230 *Laurus nobilis* laurel forest** — a Natura 2000 *priority* habitat preserving palaeo-subtropical / Tertiary flora (*Prunus lusitanica*, *Myrica faya*).
 
 ### Habitats inventoried by BioPiscinas
 
 | Code | Habitat | Where on parcel |
 |------|---------|-----------------|
-| **9240** | Iberian *Quercus faginea* / *Q. canariensis* forests | Eastern oak hill |
+| **9240** | Iberian *Quercus faginea* / *Q. canariensis* forests | Eastern oak hill (with *Q. × coutinhoi* hybrid + *Q. pseudococcifera*) |
+| **9330** | *Quercus suber* cork-oak forest | Small remnant at southern edge of the valley |
+| **\*5230** *(priority)* | *Laurus nobilis* laurel forest — palaeo-subtropical relict | Regression / refuge stage of the *Q. faginea* series on damp lee slopes |
 | **6410pt4** | Portugal-endemic rush meadows with *Juncus valvatus* — relict | Wetland fringe (peripheral) |
 | **6430pt2** | Perennial hygrophilic tall-herb vegetation on permanently moist soils | Wetland fringe |
-| **4030 / 4030pt3** | Dry European / Atlantic gorse heaths | Across valley plots — degraded successor of cork-oak forest |
+| **4030 / 4030pt3** | Dry European / Atlantic gorse heaths | Dominant in valley plots — degradation stage of the *Q. suber* series |
 
 ### Red-List and notable flora
 
@@ -278,7 +298,7 @@ BioPiscinas urges **immediate eradication** while populations remain localised �
 
 The parcel sits in the **Lagoa de Óbidos catchment landscape**, a RAMSAR-protected wetland since early 2025. The eastern *Q. faginea* hill is therefore not just a local asset — it is a regionally rare, Natura-2000-listed habitat in a Ramsar-grade landscape. Whatever is built here lives next to that ecosystem.
 
-The wider regional context includes **laurel forest (*Laurus nobilis*, Natura 2000 priority habitat 5230)** as a relict palaeo-subtropical / Tertiary flora endemic to the Caldas da Rainha area (with *Prunus lusitanica*, *Myrica faya*) — not directly on the parcel but adjacent.
+The Portuguese síntese executiva of the report sets the strategic frame for municipal and environmental authorities as **três pilares: gestão hídrica, renaturalização e criação de cavalos** — water management, rewilding, horse husbandry.
 
 ### Soil chemistry — still pending
 
@@ -321,6 +341,26 @@ In addition: family home, stables, atelier/workshop complex, and ancillary outbu
 
 All buildings designed for **off-grid operation from day one**, with grid available as backup. Passive design first; technical systems sized to a load that has not yet been calculated (§11). Materials, expression and detail follow the visual language collected on the Miro reference board (§14).
 
+### Eight-zone development plan
+
+The BioPiscinas final report maps the parcel into eight numbered land-use zones tied to the project's goals. Together they form the spatial constitution that §8, §9, §11 and §12 implement in detail:
+
+| # | Zone | Purpose |
+|---|------|---------|
+| 1 | **Bebauungsflächen Hotel Rural + Apoio agro-florestal** | On the ex-eucalyptus stand at the forest edge, where the architectural project already proposes. *Naturnahe* gardens, permeable surfaces, **Gründächer** (green roofs) where possible, **Schwimmteich** (swim-pond), full grey- and black-water concept. Build around the natural sapling regeneration already begun on the slope — keep the trees that have re-emerged for shade. |
+| 2 | **Erweiterungsfläche** | South of zone 1. Too steep for dry pasture, reserved for a building expansion shown on the architectural plan. |
+| 3 | **Reduce drainage outflow** | Modify the level of the historic dewatering ditch (a weir), raise the on-parcel water table, partially undo centuries of dewatering. Requires environmental-agency permits. |
+| 4 | **Gewässer anlegen** (create water bodies) | Open the eastern edge of the central wet depression to create an irrigation pond. Dig a small horse-trough pool at the dry/wet pasture transition on the west. Permits required. |
+| 5 | **Nutzgarten** (kitchen garden) | Site the fruit and vegetable production on the groundwater-near soils in the valley along the ditch (fresh, nutrient-rich, well-watered → minimum irrigation). See §13. |
+| 6 | **Waldflächen** (forest areas) | The second-largest area. Near-natural, ecologically the most valuable parts of the parcel. Preserve. |
+| 7 + 8 | **Pferdeweiden** (horse pastures) | The largest share. Three sub-types: dry pasture, wet pasture, and a degraded northern zone overgrown with gorse, *Cortaderia* and *Acacia*. South-edge **willow planting** as visual screen to neighbours. See §12. |
+
+The overall framing in the report: *„naturnahe, standortgerechte ökologische Prozesse … aus denen der Mensch Vorteile zieht"* — near-natural, site-appropriate ecological processes from which humans draw benefits — with some sub-areas left fully to nature.
+
+### Programme reconciliation — open
+
+The architectural programme cited above gives **10 units** under the Hotel Rural 3★ cap (Article 61 PDM, 600 m² ABC). The BioPiscinas water concept (§8) sizes wastewater for **20 rooms × 50 % occupancy**. Most likely interpretation: 10 *units* = 20 *rooms* (each unit a double), which would make the two consistent. `[PENDING — Norbert: confirm 10 units = 20 rooms, or note any change to the programme.]`
+
 ---
 
 ## 11. Energy
@@ -355,11 +395,19 @@ Until the load calculation lands, the energy section is a principle without a pl
 
 **No horse sales.** Revenue from the equine layer is experiential — workshops in natural horsemanship — not livestock trade.
 
-### Grazing
+### Grazing — three pasture types
 
-Rotational paddocks across the lower section and rented land. Move horses between zones based on land condition. The full division design (number of paddocks, rotation intervals, rest periods) lands once carrying capacity is sized against the climate and water data — i.e., downstream of §7 and §8.
+The pasture layer (zones 7 + 8 in the eight-zone development plan, §10) splits into three sub-types matched to the soil and water signature of each part of the lower section:
 
-A **round pen** is required for the natural-horsemanship workshops; siting is a function of soil drainage and proximity to the stables.
+| Pasture | Where | Character |
+|---------|-------|-----------|
+| **Dry pasture** | West of the central depression | Drained, drier soils — pasture for the warm months |
+| **Wet pasture** | At and around the wet depression | Groundwater-near, productive for longer in the dry season |
+| **Recovery / weed-control zone** | Northern part, currently overgrown with *Ulex europaeus*, *Cortaderia sellowiana* and *Acacia* | Restoration grazing — horses as part of the invasives-control programme. Eradication first, structured pasture afterwards |
+
+Rotation moves horses between zones based on land condition. The full division design (paddock count, rotation intervals, rest periods) lands once carrying capacity is sized against the climate and water data — i.e., downstream of §7 and §8.
+
+A **round pen** is required for the natural-horsemanship workshops; siting is a function of soil drainage and proximity to the stables. The pasture at the south edge of the parcel gets a **willow planting** as a visual screen toward neighbours (BioPiscinas zone-plan, intervention #8).
 
 ---
 
@@ -373,7 +421,7 @@ A **round pen** is required for the natural-horsemanship workshops; siting is a 
 
 **Vegetables:** carrot, salad, diverse mix.
 
-**Sequencing.** Garden siting is deliberately not yet fixed. It happens *after* the water design (§8) and access design (§4), because correct sequence beats clever placement. This is also the principle that governs the post-eucalyptus zone: pioneer species and soil remediation precede food-bearing planting by several seasons.
+**Siting.** The kitchen garden (zone 5 of the eight-zone plan, §10) sits in the valley along the historic drainage ditch, on groundwater-near soils — fresh, nutrient-rich, well-watered, with minimum irrigation required. This is also the principle that governs the post-eucalyptus zone: pioneer species and soil remediation precede food-bearing planting by several seasons.
 
 **Goal.** Family food sovereignty first; surplus to local community and (long-term) restaurant supply second.
 
@@ -408,7 +456,7 @@ The board is organised by category: **architecture, mass and elevation, roofs, k
 |------|--------|
 | Current revenue | Zero — fully in investment / build phase |
 | Funding source | Norbert's personal company. No external investors. No bank financing. |
-| Operating entity | HOME 4 LIFE LDA (Portuguese commercial Lda., NIPC 513229477) — `[PENDING — Q18]` reconcile with stated nonprofit framing, and with the **Moveart, GmbH** named as *Auftraggeber* on the BioPiscinas study (German company — separate vehicle commissioning external work, or parallel name?) |
+| Operating entity | HOME 4 LIFE LDA (Portuguese commercial Lda., NIPC 513229477) — `[PENDING — Q18]` reconcile with stated nonprofit framing and with **Continew GmbH** (German company named as *Auftraggeber* on the BioPiscinas landscape study). Two-jurisdiction structure to clarify: which entity holds the land, which one operates the hotel, which one commissions external studies |
 | Build budget (next 12 months) | **€300,000 – €400,000** |
 | Active costs | Architects, consultants, biologist, project management |
 
@@ -520,7 +568,7 @@ The diagnostic captured a strong qualitative picture. The follow-up below is the
 
 - **Q16** Projected annual operating costs at full operation
 - **Q17** Occupancy rate and nightly-rate assumptions
-- **Q18** Legal structure: HOME 4 LIFE LDA (PT Lda., land-holder) vs. **Moveart GmbH** (DE — named as commissioning client by BioPiscinas) vs. stated nonprofit framing — which entity is which, and which one operates the hotel?
+- **Q18** Legal structure: HOME 4 LIFE LDA (PT Lda., land-holder) vs. **Continew GmbH** (DE — current commissioning client of the BioPiscinas landscape study) vs. stated nonprofit framing — which entity is which, and which one operates the hotel?
 - **Q19** Insurance — current and planned (property, guest, horse, employer)
 - **Q20** Lease terms for the rented 4–5 ha (duration, written/verbal, notice)
 
@@ -584,12 +632,12 @@ Pre-permit information request (*Pedido de Informação Prévia*) submitted by H
 - [PIP V4 — cross-sections + infrastructure](attachments/2026-01-PIP-V4-cross-sections-infra.pdf) · 9 pp · 6.2 MB
 - [PIP V5 — architect renderings + site overview](attachments/2026-01-PIP-V5-renderings-site-overview.pdf) · 2 pp · 18 MB
 
-### Landscape-planning study — April 2026
+### Landscape-planning study — June 2026 (final report)
 
-Schwarzer & Schwarzer, *Rewilding by BioPiscinas Lda* (Aljezur). Preliminary working version of the preliminary study.
+Schwarzer & Schwarzer, *Rewilding by BioPiscinas Lda* (Aljezur). *Abschlussbericht* — final report. Commissioned by Continew GmbH (Camille & Norbert Roztocki). Source for §5, §7, §8, §9, §10, §11, §12.
 
-- [Landschaftsplanerische Bewertung — DE original](attachments/2026-05-07-Landschaftsplanerische-Bewertung.pdf) · 25 pp · 2.7 MB · *authoritative source*
-- [Landscape-Planning Assessment — EN translation](attachments/2026-05-07-Landschaft-Assessment-EN.pdf) · 16 pp · 119 KB · working translation
+- [Landschaftsplanerische Bewertung — Abschlussbericht (DOCX, DE)](attachments/2026-06-Landschaftsplanerische-Abschlussbericht.docx) · 7.9 MB · *authoritative source*
+- [Landscape-Planning Assessment — EN translation](attachments/2026-06-Landschaft-Abschlussbericht-EN.md) · markdown · working translation
 
 ### Source repository
 
@@ -597,7 +645,7 @@ The full source of this site (whitepaper text, landing page, build scripts, base
 
 ---
 
-*Reconnecta — working draft v0.3-beta · 2026-05-08*
+*Reconnecta — working draft v0.4-beta · 2026-06-27*
 *Compiled by Paweł Sroczyński*
 *For Norbert Roztocki · HOME 4 LIFE LDA*
 *Source matrix: `whitepaper/matrix.md`*
